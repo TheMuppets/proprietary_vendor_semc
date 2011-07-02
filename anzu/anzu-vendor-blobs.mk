@@ -55,11 +55,16 @@ vendor/semc/anzu/proprietary/libwms.so:system/lib/libwms.so \
 vendor/semc/anzu/proprietary/libwmsts.so:system/lib/libwmsts.so
 
 ## Camera proprietaries
-#PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES += \
 vendor/semc/anzu/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+vendor/semc/anzu/proprietary/libcamera.so:obj/lib/libcamera.so \
 vendor/semc/anzu/proprietary/libcamera.so:system/lib/libcamera.so \
+vendor/semc/anzu/proprietary/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+vendor/semc/anzu/proprietary/libcald_api.so:system/lib/libcald_api.so \
+vendor/semc/anzu/proprietary/libcald_pal.so:system/lib/libcald_pal.so \
+vendor/semc/anzu/proprietary/libopencore_common.so:system/lib/libopencore_common.so \
 vendor/semc/anzu/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-vendor/semc/anzu/proprietary/libmmipl.so:system/lib/libmmipl.so 
+vendor/semc/anzu/proprietary/libmmipl.so:system/lib/libmmipl.so
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -88,7 +93,7 @@ PRODUCT_COPY_FILES += vendor/semc/anzu/proprietary/hciattach:system/bin/hciattac
 vendor/semc/anzu/proprietary/init.qcom.bt.sh:system/etc/init.bt.sh \
 vendor/semc/anzu/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 vendor/semc/anzu/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-vendor/semc/anzu/proprietary/softap/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
+vendor/semc/anzu/proprietary/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
 vendor/semc/anzu/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
 vendor/semc/anzu/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
 vendor/semc/anzu/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
@@ -96,10 +101,10 @@ vendor/semc/anzu/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_f
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \
 vendor/semc/anzu/proprietary/libgsl.so:system/lib/libgsl.so \
-vendor/semc/anzu/proprietary/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-vendor/semc/anzu/proprietary/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-vendor/semc/anzu/proprietary/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-vendor/semc/anzu/proprietary/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so 
+vendor/semc/anzu/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+vendor/semc/anzu/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+vendor/semc/anzu/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+vendor/semc/anzu/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \
@@ -107,9 +112,8 @@ vendor/semc/anzu/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
 vendor/semc/anzu/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
 vendor/semc/anzu/proprietary/als_curve.conf:system/etc/als_curve.conf \
 vendor/semc/anzu/proprietary/vold.fstab:system/etc/vold.fstab \
-vendor/semc/anzu/proprietary/hw_config.sh:system/etc/hw_config.sh \
 vendor/semc/anzu/proprietary/sensors.conf:system/etc/sensors.conf \
-vendor/semc/anzu/proprietary/hw/sensors.default.so:system/lib/hw/sensors.semc.so \
+vendor/semc/anzu/proprietary/sensors.default.so:system/lib/hw/sensors.semc.so \
 vendor/semc/anzu/proprietary/bq275xx_fwloader:system/bin/bq275xx_fwloader \
 vendor/semc/anzu/proprietary/hdmid:system/bin/hdmid \
 vendor/semc/anzu/proprietary/akmd8975:system/bin/akmd8975 \
@@ -118,7 +122,7 @@ vendor/semc/anzu/proprietary/touchd:system/bin/touchd
 #offline charging animation
 PRODUCT_COPY_FILES += \
 vendor/semc/anzu/proprietary/chargemon:system/bin/chargemon \
-vendor/semc/anzu/proprietary/libmiscta.so:system/lib/libmiscta.so \
+vendor/semc/anzu/proprietary/libmiscta.so:system/lib/libmiscta.so
 
 #Temporary GPS Fix untill we have 50001 gps
 PRODUCT_COPY_FILES += \
