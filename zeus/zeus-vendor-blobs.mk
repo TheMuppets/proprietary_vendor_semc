@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
 vendor/semc/zeus/proprietary/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
 vendor/semc/zeus/proprietary/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
-vendor/semc/zeus/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
+vendor/semc/zeus/proprietary/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
 vendor/semc/zeus/proprietary/vidc_720p_h263_dec_mc.fw:system/etc/firmware/vidc_720p_h263_dec_mc.fw \
 vendor/semc/zeus/proprietary/vidc_720p_h264_dec_mc.fw:system/etc/firmware/vidc_720p_h264_dec_mc.fw \
 vendor/semc/zeus/proprietary/vidc_720p_h264_enc_mc.fw:system/etc/firmware/vidc_720p_h264_enc_mc.fw \
@@ -102,6 +102,7 @@ vendor/semc/zeus/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
 vendor/semc/zeus/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/zeus/proprietary/sensors.default.so:system/lib/hw/sensors.semc.so \
 vendor/semc/zeus/proprietary/akmd8975:system/bin/akmd8975 \
+vendor/semc/zeus/proprietary/vold.fstab:system/etc/vold.fstab
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
