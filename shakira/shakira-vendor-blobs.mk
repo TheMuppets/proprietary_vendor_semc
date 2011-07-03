@@ -111,13 +111,15 @@ vendor/semc/shakira/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \
+vendor/semc/shakira/proprietary/libaudio.so:obj/lib/libaudio.so \
+vendor/semc/shakira/proprietary/libaudio.so:system/lib/libaudio.so \
 vendor/semc/shakira/proprietary/libaudioeq.so:obj/lib/libaudioeq.so \
 vendor/semc/shakira/proprietary/libaudioeq.so:system/lib/libaudioeq.so \
 vendor/semc/shakira/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.shakira.so \
 vendor/semc/shakira/proprietary/akmd2:system/bin/akmd2 \
-vendor/semc/shakira/proprietary/etc/AudioFilterProduct.csv:system/etc/AudioFilterProduct.csv \
-vendor/semc/shakira/proprietary/etc/AudioFilterPlatform.csv:system/etc/AudioFilterPlatform.csv
+vendor/semc/shakira/proprietary/AudioFilterProduct.csv:system/etc/AudioFilterProduct.csv \
+vendor/semc/shakira/proprietary/AudioFilterPlatform.csv:system/etc/AudioFilterPlatform.csv
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
