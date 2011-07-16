@@ -29,7 +29,9 @@ vendor/semc/zeus/proprietary/qwerty.kl:system/usr/keylayout/qwerty.kl \
 vendor/semc/zeus/proprietary/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
 vendor/semc/zeus/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
 vendor/semc/zeus/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
-vendor/semc/zeus/proprietary/zeus-keypad.kcm.bin:system/usr/keychars/zeus-keypad.kcm.bin 
+vendor/semc/zeus/proprietary/zeus-keypad.kcm.bin:system/usr/keychars/zeus-keypad.kcm.bin \
+vendor/semc/zeus/proprietary/lidswitchd:system/bin/lidswitchd
+
 
 ## RIL related stuff 
 PRODUCT_COPY_FILES += \
@@ -112,5 +114,22 @@ vendor/semc/zeus/proprietary/libmiscta.so:system/lib/libmiscta.so
 #Temporary GPS Fix untill we have 50001 gps
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+
+PRODUCT_COPY_FILES += \
+vendor/semc/zeus/proprietary/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+vendor/semc/zeus/proprietary/com.sonyericsson.android.xperiaplaycertified.xml:system/etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml \
+vendor/semc/zeus/proprietary/com.sony.android.playstationcertified.xml:system/etc/permissions/com.sony.android.playstationcertified.xml
+
+
+PRODUCT_COPY_FILES += \
+vendor/semc/zeus/proprietary/xperiaplaycertified.jar:system/framework/xperiaplaycertified.jar \
+vendor/semc/zeus/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar
+
+
+
+
+
+
+
 
 
