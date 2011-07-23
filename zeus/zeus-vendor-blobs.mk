@@ -65,7 +65,9 @@ vendor/semc/zeus/proprietary/libcamera.so:obj/lib/libcamera.so \
 vendor/semc/zeus/proprietary/libcamera.so:system/lib/libcamera.so \
 vendor/semc/zeus/proprietary/libopencore_common.so:system/lib/libopencore_common.so \
 vendor/semc/zeus/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-vendor/semc/zeus/proprietary/libmmipl.so:system/lib/libmmipl.so
+vendor/semc/zeus/proprietary/libmmipl.so:system/lib/libmmipl.so \
+vendor/semc/zeus/proprietary/drmserver:system/bin/drmserver \
+vendor/semc/zeus/proprietary/drmioserver:system/bin/drmioserver
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -123,13 +125,7 @@ vendor/semc/zeus/proprietary/com.sony.android.playstationcertified.xml:system/et
 
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/xperiaplaycertified.jar:system/framework/xperiaplaycertified.jar \
-vendor/semc/zeus/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar
-
-
-
-
-
-
-
+vendor/semc/zeus/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar \
+vendor/semc/zeus/proprietary/getgames.apk:system/app/getgames.apk
 
 
