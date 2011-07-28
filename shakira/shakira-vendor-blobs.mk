@@ -19,10 +19,10 @@
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/usr/keylayout/shakira_keypad.kl:system/usr/keylayout/shakira_keypad.kl \
-vendor/semc/shakira/proprietary/usr/keylayout/systemconnector.kl:system/usr/keylayout/systemconnector.kl \
-vendor/semc/shakira/proprietary/usr/keychars/shakira_keypad.kcm.bin:system/usr/keychars/shakira_keypad.kcm.bin \
-vendor/semc/shakira/proprietary/usr/keychars/systemconnector.kcm.bin:system/usr/keychars/systemconnector.kcm.bin
+vendor/semc/shakira/proprietary/shakira_keypad.kl:system/usr/keylayout/shakira_keypad.kl \
+vendor/semc/shakira/proprietary/systemconnector.kl:system/usr/keylayout/systemconnector.kl \
+vendor/semc/shakira/proprietary/shakira_keypad.kcm.bin:system/usr/keychars/shakira_keypad.kcm.bin \
+vendor/semc/shakira/proprietary/systemconnector.kcm.bin:system/usr/keychars/systemconnector.kcm.bin
 
 ## RIL related stuff 
 PRODUCT_COPY_FILES += \
@@ -57,49 +57,46 @@ vendor/semc/shakira/proprietary/libmmipl.so:system/lib/libmmipl.so
 
 ## OMX proprietaries
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
-vendor/semc/shakira/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-vendor/semc/shakira/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
-vendor/semc/shakira/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
-vendor/semc/shakira/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
-vendor/semc/shakira/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
-vendor/semc/shakira/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
-vendor/semc/shakira/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
-vendor/semc/shakira/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
-vendor/semc/shakira/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
-vendor/semc/shakira/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-vendor/semc/shakira/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
-vendor/semc/shakira/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-vendor/semc/shakira/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
-vendor/semc/shakira/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
-vendor/semc/shakira/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-vendor/semc/shakira/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so
+vendor/semc/shakira/proprietary/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+vendor/semc/shakira/proprietary/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+vendor/semc/shakira/proprietary/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+vendor/semc/shakira/proprietary/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+vendor/semc/shakira/proprietary/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
+vendor/semc/shakira/proprietary/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+vendor/semc/shakira/proprietary/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+vendor/semc/shakira/proprietary/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+vendor/semc/shakira/proprietary/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+vendor/semc/shakira/proprietary/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+vendor/semc/shakira/proprietary/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+vendor/semc/shakira/proprietary/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+vendor/semc/shakira/proprietary/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+vendor/semc/shakira/proprietary/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+vendor/semc/shakira/proprietary/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+vendor/semc/shakira/proprietary/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+vendor/semc/shakira/proprietary/libOmxWmvDec.so:system/lib/libOmxWmvDec.so
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-vendor/semc/shakira/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-vendor/semc/shakira/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
-vendor/semc/shakira/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
-vendor/semc/shakira/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
-vendor/semc/shakira/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
-vendor/semc/shakira/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
-vendor/semc/shakira/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
-vendor/semc/shakira/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
-vendor/semc/shakira/proprietary/etc/tiwlan_firmware.bin:system/etc/wifi/wl1271.bin
+vendor/semc/shakira/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+vendor/semc/shakira/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+vendor/semc/shakira/proprietary/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
+vendor/semc/shakira/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
+vendor/semc/shakira/proprietary/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
+vendor/semc/shakira/proprietary/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
+vendor/semc/shakira/proprietary/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
+vendor/semc/shakira/proprietary/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
+vendor/semc/shakira/proprietary/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts 
 
 ## SE Sensors
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.shakira.so
+vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.shakira.so\
+vendor/semc/shakira/proprietary/copybit.msm7k.so:system/lib/hw/copybit.shakira.so
 
 ## WIFI & BT TI1271
 PRODUCT_COPY_FILES += \
 vendor/semc/shakira/proprietary/hciattach:system/bin/hciattach \
-vendor/semc/shakira/proprietary/init.qcom.bt.sh:system/etc/init.bt.sh \
 vendor/semc/shakira/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-vendor/semc/shakira/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-vendor/semc/shakira/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-vendor/semc/shakira/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin
+vendor/semc/shakira/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \
@@ -111,22 +108,25 @@ vendor/semc/shakira/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/libaudio.so:obj/lib/libaudio.so \
-vendor/semc/shakira/proprietary/libaudio.so:system/lib/libaudio.so \
 vendor/semc/shakira/proprietary/libaudioeq.so:obj/lib/libaudioeq.so \
 vendor/semc/shakira/proprietary/libaudioeq.so:system/lib/libaudioeq.so \
 vendor/semc/shakira/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.shakira.so \
-vendor/semc/shakira/proprietary/akmd2:system/bin/akmd2 \
-vendor/semc/shakira/proprietary/AudioFilterProduct.csv:system/etc/AudioFilterProduct.csv \
-vendor/semc/shakira/proprietary/AudioFilterPlatform.csv:system/etc/AudioFilterPlatform.csv
+vendor/semc/shakira/proprietary/akmd2:system/bin/akmd2 
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
 vendor/semc/shakira/proprietary/chargemon:system/bin/charger \
-vendor/semc/shakira/proprietary/libmiscta.so:system/lib/libmiscta.so
+vendor/semc/shakira/proprietary/libmiscta.so:system/lib/libmiscta.so \
+vendor/semc/shakira/proprietary/semc_chargalg:system/bin/semc_chargalg \
+vendor/semc/shakira/proprietary/updatemiscta:system/bin/updatemiscta \
+vendor/semc/shakira/proprietary/anim1.rle:system/etc/semc/chargemon/anim1.rle \
+vendor/semc/shakira/proprietary/anim2.rle:system/etc/semc/chargemon/anim2.rle \
+vendor/semc/shakira/proprietary/anim3.rle:system/etc/semc/chargemon/anim3.rle \
+vendor/semc/shakira/proprietary/anim4.rle:system/etc/semc/chargemon/anim4.rle \
+vendor/semc/shakira/proprietary/anim5.rle:system/etc/semc/chargemon/anim5.rle \
+vendor/semc/shakira/proprietary/anim6.rle:system/etc/semc/chargemon/anim6.rle \
+vendor/semc/shakira/proprietary/anim7.rle:system/etc/semc/chargemon/anim7.rle \
+vendor/semc/shakira/proprietary/anim8.rle:system/etc/semc/chargemon/anim8.rle 
 
-#Temporary GPS Fix untill we have 50001 gps
-PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 

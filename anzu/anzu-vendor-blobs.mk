@@ -89,11 +89,10 @@ vendor/semc/anzu/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 vendor/semc/anzu/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw 
 
 ## WIFI & BT TI1271
-PRODUCT_COPY_FILES += vendor/semc/anzu/proprietary/hciattach:system/bin/hciattach \
+PRODUCT_COPY_FILES += \
+vendor/semc/anzu/proprietary/hciattach:system/bin/hciattach \
 vendor/semc/anzu/proprietary/init.qcom.bt.sh:system/etc/init.bt.sh \
 vendor/semc/anzu/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-vendor/semc/anzu/proprietary/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-vendor/semc/anzu/proprietary/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
 vendor/semc/anzu/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
 vendor/semc/anzu/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
 vendor/semc/anzu/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
