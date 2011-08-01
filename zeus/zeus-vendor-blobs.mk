@@ -114,8 +114,8 @@ vendor/semc/zeus/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/zeus/proprietary/libmiscta.so:system/lib/libmiscta.so
 
 #Temporary GPS Fix untill we have 50001 gps
-PRODUCT_COPY_FILES += \
-vendor/semc/zeus/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+#PRODUCT_COPY_FILES += \
+#vendor/semc/zeus/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \

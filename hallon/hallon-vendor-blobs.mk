@@ -109,7 +109,6 @@ vendor/semc/hallon/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_a
 PRODUCT_COPY_FILES += \
 vendor/semc/hallon/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
 vendor/semc/hallon/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
-vendor/semc/hallon/proprietary/als_curve.conf:system/etc/als_curve.conf \
 vendor/semc/hallon/proprietary/vold.fstab:system/etc/vold.fstab \
 vendor/semc/hallon/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/hallon/proprietary/sensors.default.so:system/lib/hw/sensors.semc.so \
@@ -124,7 +123,7 @@ vendor/semc/hallon/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/hallon/proprietary/libmiscta.so:system/lib/libmiscta.so
 
 #Temporary GPS Fix untill we have 50001 gps
-PRODUCT_COPY_FILES += \
-vendor/semc/hallon/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+#PRODUCT_COPY_FILES += \
+#vendor/semc/hallon/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 
 

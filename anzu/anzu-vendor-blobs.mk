@@ -124,7 +124,7 @@ vendor/semc/anzu/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/anzu/proprietary/libmiscta.so:system/lib/libmiscta.so
 
 #Temporary GPS Fix untill we have 50001 gps
-PRODUCT_COPY_FILES += \
-vendor/semc/anzu/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+#PRODUCT_COPY_FILES += \
+#vendor/semc/anzu/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 
 

@@ -89,8 +89,8 @@ vendor/semc/shakira/proprietary/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2
 
 ## SE Sensors
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.shakira.so\
-vendor/semc/shakira/proprietary/copybit.msm7k.so:system/lib/hw/copybit.shakira.so
+vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.shakira.so
+//vendor/semc/shakira/proprietary/copybit.msm7k.so:system/lib/hw/copybit.shakira.so
 
 ## WIFI & BT TI1271
 PRODUCT_COPY_FILES += \
@@ -119,14 +119,6 @@ PRODUCT_COPY_FILES += \
 vendor/semc/shakira/proprietary/chargemon:system/bin/charger \
 vendor/semc/shakira/proprietary/libmiscta.so:system/lib/libmiscta.so \
 vendor/semc/shakira/proprietary/semc_chargalg:system/bin/semc_chargalg \
-vendor/semc/shakira/proprietary/updatemiscta:system/bin/updatemiscta \
-vendor/semc/shakira/proprietary/anim1.rle:system/etc/semc/chargemon/anim1.rle \
-vendor/semc/shakira/proprietary/anim2.rle:system/etc/semc/chargemon/anim2.rle \
-vendor/semc/shakira/proprietary/anim3.rle:system/etc/semc/chargemon/anim3.rle \
-vendor/semc/shakira/proprietary/anim4.rle:system/etc/semc/chargemon/anim4.rle \
-vendor/semc/shakira/proprietary/anim5.rle:system/etc/semc/chargemon/anim5.rle \
-vendor/semc/shakira/proprietary/anim6.rle:system/etc/semc/chargemon/anim6.rle \
-vendor/semc/shakira/proprietary/anim7.rle:system/etc/semc/chargemon/anim7.rle \
-vendor/semc/shakira/proprietary/anim8.rle:system/etc/semc/chargemon/anim8.rle 
+vendor/semc/shakira/proprietary/updatemiscta:system/bin/updatemiscta 
 
 
