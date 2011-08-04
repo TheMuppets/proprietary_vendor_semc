@@ -65,7 +65,7 @@ vendor/semc/zeus/proprietary/libopencore_common.so:system/lib/libopencore_common
 vendor/semc/zeus/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
 vendor/semc/zeus/proprietary/libmmipl.so:system/lib/libmmipl.so \
 vendor/semc/zeus/proprietary/drmserver:system/bin/drmserver \
-vendor/semc/zeus/proprietary/drmioserver:system/bin/drmioserver
+vendor/semc/zeus/proprietary/drmioserver:system/bin/drmioserver \
 vendor/semc/zeus/proprietary/libcamera.so:obj/lib/libcamera.so \
 vendor/semc/zeus/proprietary/libcamera.so:system/lib/libcamera.so
 
