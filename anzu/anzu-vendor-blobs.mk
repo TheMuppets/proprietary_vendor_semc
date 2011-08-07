@@ -52,7 +52,13 @@ vendor/semc/anzu/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/anzu/proprietary/libuim.so:system/lib/libuim.so \
 vendor/semc/anzu/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/anzu/proprietary/libwms.so:system/lib/libwms.so \
-vendor/semc/anzu/proprietary/libwmsts.so:system/lib/libwmsts.so
+vendor/semc/anzu/proprietary/libwmsts.so:system/lib/libwmsts.so \
+vendor/semc/anzu/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+vendor/semc/anzu/proprietary/libdsutils.so:system/lib/libdsutils.so \
+vendor/semc/anzu/proprietary/libidl.so:system/lib/libidl.so \
+vendor/semc/anzu/proprietary/libnetmgr.so:system/lib/libnetmgr.so \
+vendor/semc/anzu/proprietary/libqdp.so:system/lib/libqdp.so \
+vendor/semc/anzu/proprietary/netmgrd:system/bin/netmgrd
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
@@ -68,8 +74,8 @@ vendor/semc/anzu/proprietary/libmmipl.so:system/lib/libmmipl.so
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
-vendor/semc/anzu/proprietary/bq27520_fw-0501_filever-0105_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0105_proj-hall_golden.bqfs \
-vendor/semc/anzu/proprietary/bq27520_fw-0501_filever-0105_proj-hall_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0105_proj-hall_golden.dffs \
+vendor/semc/anzu/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs \
+vendor/semc/anzu/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs \
 vendor/semc/anzu/proprietary/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
 vendor/semc/anzu/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
 vendor/semc/anzu/proprietary/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
@@ -124,7 +130,7 @@ vendor/semc/anzu/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/anzu/proprietary/libmiscta.so:system/lib/libmiscta.so
 
 #Temporary GPS Fix untill we have 50001 gps
-#PRODUCT_COPY_FILES += \
-#vendor/semc/anzu/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+PRODUCT_COPY_FILES += \
+vendor/semc/anzu/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 
 

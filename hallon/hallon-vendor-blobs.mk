@@ -53,6 +53,13 @@ vendor/semc/hallon/proprietary/libuim.so:system/lib/libuim.so \
 vendor/semc/hallon/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/hallon/proprietary/libwms.so:system/lib/libwms.so \
 vendor/semc/hallon/proprietary/libwmsts.so:system/lib/libwmsts.so
+vendor/semc/hallon/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+vendor/semc/hallon/proprietary/libdsutils.so:system/lib/libdsutils.so \
+vendor/semc/hallon/proprietary/libidl.so:system/lib/libidl.so \
+vendor/semc/hallon/proprietary/libnetmgr.so:system/lib/libnetmgr.so \
+vendor/semc/hallon/proprietary/libqdp.so:system/lib/libqdp.so \
+vendor/semc/hallon/proprietary/netmgrd:system/bin/netmgrd
+
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
@@ -68,8 +75,8 @@ vendor/semc/hallon/proprietary/libmmipl.so:system/lib/libmmipl.so
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
-vendor/semc/hallon/proprietary/bq27520_fw-0501_filever-0105_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0105_proj-hall_golden.bqfs \
-vendor/semc/hallon/proprietary/bq27520_fw-0501_filever-0105_proj-hall_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0105_proj-hall_golden.dffs \
+vendor/semc/hallon/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs \
+vendor/semc/hallon/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs \
 vendor/semc/hallon/proprietary/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
 vendor/semc/hallon/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
 vendor/semc/hallon/proprietary/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
