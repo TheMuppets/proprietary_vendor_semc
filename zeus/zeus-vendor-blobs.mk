@@ -61,13 +61,13 @@ vendor/semc/zeus/proprietary/libwmsts.so:system/lib/libwmsts.so
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+vendor/semc/zeus/proprietary/libcamera.so:obj/lib/libcamera.so \
+vendor/semc/zeus/proprietary/libcamera.so:system/lib/libcamera.so \
 vendor/semc/zeus/proprietary/libopencore_common.so:system/lib/libopencore_common.so \
 vendor/semc/zeus/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
 vendor/semc/zeus/proprietary/libmmipl.so:system/lib/libmmipl.so \
 vendor/semc/zeus/proprietary/drmserver:system/bin/drmserver \
-vendor/semc/zeus/proprietary/drmioserver:system/bin/drmioserver \
-vendor/semc/zeus/proprietary/libcamera.so:obj/lib/libcamera.so \
-vendor/semc/zeus/proprietary/libcamera.so:system/lib/libcamera.so
+vendor/semc/zeus/proprietary/drmioserver:system/bin/drmioserver
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -114,8 +114,8 @@ vendor/semc/zeus/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/zeus/proprietary/libmiscta.so:system/lib/libmiscta.so
 
 #Temporary GPS Fix untill we have 50001 gps
-#PRODUCT_COPY_FILES += \
-#vendor/semc/zeus/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+PRODUCT_COPY_FILES += \
+vendor/semc/zeus/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \

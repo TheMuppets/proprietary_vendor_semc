@@ -52,7 +52,7 @@ vendor/semc/hallon/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/hallon/proprietary/libuim.so:system/lib/libuim.so \
 vendor/semc/hallon/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/hallon/proprietary/libwms.so:system/lib/libwms.so \
-vendor/semc/hallon/proprietary/libwmsts.so:system/lib/libwmsts.so
+vendor/semc/hallon/proprietary/libwmsts.so:system/lib/libwmsts.so \
 vendor/semc/hallon/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 vendor/semc/hallon/proprietary/libdsutils.so:system/lib/libdsutils.so \
 vendor/semc/hallon/proprietary/libidl.so:system/lib/libidl.so \

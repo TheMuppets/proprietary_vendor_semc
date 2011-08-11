@@ -89,8 +89,7 @@ vendor/semc/shakira/proprietary/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2
 
 ## SE Sensors
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.shakira.so
-//vendor/semc/shakira/proprietary/copybit.msm7k.so:system/lib/hw/copybit.shakira.so
+vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.delta.so
 
 ## WIFI & BT TI1271
 PRODUCT_COPY_FILES += \
@@ -111,7 +110,6 @@ PRODUCT_COPY_FILES += \
 vendor/semc/shakira/proprietary/libaudioeq.so:obj/lib/libaudioeq.so \
 vendor/semc/shakira/proprietary/libaudioeq.so:system/lib/libaudioeq.so \
 vendor/semc/shakira/proprietary/sensors.conf:system/etc/sensors.conf \
-vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.shakira.so \
 vendor/semc/shakira/proprietary/akmd2:system/bin/akmd2 
 
 #offline charging animation
@@ -120,5 +118,11 @@ vendor/semc/shakira/proprietary/chargemon:system/bin/charger \
 vendor/semc/shakira/proprietary/libmiscta.so:system/lib/libmiscta.so \
 vendor/semc/shakira/proprietary/semc_chargalg:system/bin/semc_chargalg \
 vendor/semc/shakira/proprietary/updatemiscta:system/bin/updatemiscta 
+
+#crappy headset
+PRODUCT_COPY_FILES += \
+vendor/semc/shakira/proprietary/hal_seport.default.so:system/lib/hw/hal_seport.delta.so \
+vendor/semc/shakira/proprietary/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
+vendor/semc/shakira/proprietary/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so 
 
 
