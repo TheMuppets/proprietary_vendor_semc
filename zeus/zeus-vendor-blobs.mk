@@ -56,7 +56,14 @@ vendor/semc/zeus/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/zeus/proprietary/libuim.so:system/lib/libuim.so \
 vendor/semc/zeus/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/zeus/proprietary/libwms.so:system/lib/libwms.so \
-vendor/semc/zeus/proprietary/libwmsts.so:system/lib/libwmsts.so
+vendor/semc/zeus/proprietary/libwmsts.so:system/lib/libwmsts.so \
+vendor/semc/zeus/proprietary/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
+vendor/semc/zeus/proprietary/libdsutils.so:system/lib/libdsutils.so \
+vendor/semc/zeus/proprietary/libidl.so:system/lib/libidl.so \
+vendor/semc/zeus/proprietary/libnetmgr.so:system/lib/libnetmgr.so \
+vendor/semc/zeus/proprietary/libqdp.so:system/lib/libqdp.so \
+vendor/semc/zeus/proprietary/netmgrd:system/bin/netmgrd
+
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
@@ -125,7 +132,9 @@ vendor/semc/zeus/proprietary/com.sony.android.playstationcertified.xml:system/et
 
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/xperiaplaycertified.jar:system/framework/xperiaplaycertified.jar \
-vendor/semc/zeus/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar \
-vendor/semc/zeus/proprietary/getgames.apk:system/app/getgames.apk
+vendor/semc/zeus/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar
+//vendor/semc/zeus/proprietary/getgames.apk:system/app/getgames.apk
 
+PRODUCT_COPY_FILES += \
+vendor/semc/zeus/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk
 
