@@ -130,7 +130,13 @@ vendor/semc/hallon/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/hallon/proprietary/libmiscta.so:system/lib/libmiscta.so
 
 #Temporary GPS Fix untill we have 50001 gps
-#PRODUCT_COPY_FILES += \
-#vendor/semc/hallon/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+PRODUCT_COPY_FILES += \
+vendor/semc/hallon/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
+
+#Touch firmware
+PRODUCT_COPY_FILES += \
+vendor/semc/hallon/proprietary/touch_hallon_hitachi.hex:system/etc/firmware/touch_hallon_hitachi.hex \
+vendor/semc/hallon/proprietary/touch_hallon_sony.hex:system/etc/firmware/touch_hallon_sony.hex
+
 
 

@@ -74,8 +74,8 @@ vendor/semc/smultron/proprietary/libmmipl.so:system/lib/libmmipl.so
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
-vendor/semc/smultron/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs \
-vendor/semc/smultron/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs \
+vendor/semc/smultron/proprietary/bq27520_fw-0501_filever-0041_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0041_filever-0107_proj-mang_golden.bqfs \
+vendor/semc/smultron/proprietary/bq27520_fw-0501_filever-0041_proj-mang_golden.dffs:system/etc/firmware/bq27520_fw-0041_filever-0107_proj-mang_golden.dffs \
 vendor/semc/smultron/proprietary/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
 vendor/semc/smultron/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
 vendor/semc/smultron/proprietary/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
@@ -115,14 +115,11 @@ vendor/semc/smultron/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2
 PRODUCT_COPY_FILES += \
 vendor/semc/smultron/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
 vendor/semc/smultron/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
-vendor/semc/smultron/proprietary/als_curve.conf:system/etc/als_curve.conf \
 vendor/semc/smultron/proprietary/vold.fstab:system/etc/vold.fstab \
 vendor/semc/smultron/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/smultron/proprietary/sensors.default.so:system/lib/hw/sensors.semc.so \
 vendor/semc/smultron/proprietary/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-vendor/semc/smultron/proprietary/hdmid:system/bin/hdmid \
 vendor/semc/smultron/proprietary/akmd8975:system/bin/akmd8975 \
-vendor/semc/smultron/proprietary/touchd:system/bin/touchd
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
@@ -133,4 +130,6 @@ vendor/semc/smultron/proprietary/libmiscta.so:system/lib/libmiscta.so
 PRODUCT_COPY_FILES += \
 vendor/semc/smultron/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 
-
+#touch
+PRODUCT_COPY_FILES += \
+vendor/semc/smultron/proprietary/touch_smultron_sony.hex:system/etc/firmware/touch_smultron_sony.hex
