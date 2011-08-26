@@ -66,11 +66,24 @@ vendor/semc/anzu/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/semc/anzu/proprietary/libcamera.so:obj/lib/libcamera.so \
 vendor/semc/anzu/proprietary/libcamera.so:system/lib/libcamera.so \
 vendor/semc/anzu/proprietary/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-vendor/semc/anzu/proprietary/libcald_api.so:system/lib/libcald_api.so \
-vendor/semc/anzu/proprietary/libcald_pal.so:system/lib/libcald_pal.so \
 vendor/semc/anzu/proprietary/libopencore_common.so:system/lib/libopencore_common.so \
 vendor/semc/anzu/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-vendor/semc/anzu/proprietary/libmmipl.so:system/lib/libmmipl.so
+vendor/semc/anzu/proprietary/libmmipl.so:system/lib/libmmipl.so \
+vendor/semc/anzu/proprietary/libcald_api.so:system/lib/libcald_api.so \
+vendor/semc/anzu/proprietary/libcald_client.so:system/lib/libcald_client.so \
+vendor/semc/anzu/proprietary/libcald_debugger.so:system/lib/libcald_debugger.so \
+vendor/semc/anzu/proprietary/libcald_hal.so:system/lib/libcald_hal.so \
+vendor/semc/anzu/proprietary/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+vendor/semc/anzu/proprietary/libcald_omxcamera.so:system/lib/libcald_omxcamera.so \
+vendor/semc/anzu/proprietary/libcald_omxcamera_plugin.so:system/lib/libcald_omxcamera_plugin.so \
+vendor/semc/anzu/proprietary/libcald_pal.so:system/lib/libcald_pal.so \
+vendor/semc/anzu/proprietary/libcald_server.so:system/lib/libcald_server.so \
+vendor/semc/anzu/proprietary/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
+vendor/semc/anzu/proprietary/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
+vendor/semc/anzu/proprietary/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
+vendor/semc/anzu/proprietary/libface.so:system/lib/libface.so \
+vendor/semc/anzu/proprietary/libgemini.so:system/lib/libgemini.so \
+vendor/semc/anzu/proprietary/libcameralight.so:system/lib/libcameralight.so
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -103,18 +116,12 @@ vendor/semc/anzu/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware
 vendor/semc/anzu/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
 vendor/semc/anzu/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
 
-## Adreno 200 files
-PRODUCT_COPY_FILES += \
-vendor/semc/anzu/proprietary/libgsl.so:system/lib/libgsl.so \
-vendor/semc/anzu/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-vendor/semc/anzu/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-vendor/semc/anzu/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-vendor/semc/anzu/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \
 vendor/semc/anzu/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
 vendor/semc/anzu/proprietary/libaudioalsa.so:system/lib/libaudioalsa.so \
+vendor/semc/anzu/proprietary/libaudioeq.so:system/lib/libaudioeq.so \
 vendor/semc/anzu/proprietary/als_curve.conf:system/etc/als_curve.conf \
 vendor/semc/anzu/proprietary/vold.fstab:system/etc/vold.fstab \
 vendor/semc/anzu/proprietary/sensors.conf:system/etc/sensors.conf \

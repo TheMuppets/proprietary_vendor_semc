@@ -66,11 +66,25 @@ vendor/semc/smultron/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/semc/smultron/proprietary/libcamera.so:obj/lib/libcamera.so \
 vendor/semc/smultron/proprietary/libcamera.so:system/lib/libcamera.so \
 vendor/semc/smultron/proprietary/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-vendor/semc/smultron/proprietary/libcald_api.so:system/lib/libcald_api.so \
-vendor/semc/smultron/proprietary/libcald_pal.so:system/lib/libcald_pal.so \
 vendor/semc/smultron/proprietary/libopencore_common.so:system/lib/libopencore_common.so \
 vendor/semc/smultron/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-vendor/semc/smultron/proprietary/libmmipl.so:system/lib/libmmipl.so
+vendor/semc/smultron/proprietary/libmmipl.so:system/lib/libmmipl.so \
+vendor/semc/smultron/proprietary/libcald_api.so:system/lib/libcald_api.so \
+vendor/semc/smultron/proprietary/libcald_client.so:system/lib/libcald_client.so \
+vendor/semc/smultron/proprietary/libcald_debugger.so:system/lib/libcald_debugger.so \
+vendor/semc/smultron/proprietary/libcald_hal.so:system/lib/libcald_hal.so \
+vendor/semc/smultron/proprietary/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+vendor/semc/smultron/proprietary/libcald_omxcamera.so:system/lib/libcald_omxcamera.so \
+vendor/semc/smultron/proprietary/libcald_omxcamera_plugin.so:system/lib/libcald_omxcamera_plugin.so \
+vendor/semc/smultron/proprietary/libcald_pal.so:system/lib/libcald_pal.so \
+vendor/semc/smultron/proprietary/libcald_server.so:system/lib/libcald_server.so \
+vendor/semc/smultron/proprietary/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
+vendor/semc/smultron/proprietary/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
+vendor/semc/smultron/proprietary/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
+vendor/semc/smultron/proprietary/libface.so:system/lib/libface.so \
+vendor/semc/smultron/proprietary/libgemini.so:system/lib/libgemini.so \
+vendor/semc/smultron/proprietary/libcameralight.so:system/lib/libcameralight.so
+
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -102,14 +116,6 @@ vendor/semc/smultron/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 vendor/semc/smultron/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
 vendor/semc/smultron/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
 vendor/semc/smultron/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
-
-## Adreno 200 files
-PRODUCT_COPY_FILES += \
-vendor/semc/smultron/proprietary/libgsl.so:system/lib/libgsl.so \
-vendor/semc/smultron/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-vendor/semc/smultron/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-vendor/semc/smultron/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-vendor/semc/smultron/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \

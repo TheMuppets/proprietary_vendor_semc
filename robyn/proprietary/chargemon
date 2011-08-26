@@ -1,0 +1,86 @@
+#!/system/recovery/sh
+
+DEVICE=`cat /system/recovery/model`
+
+case $DEVICE in
+    X10*)
+        cat /dev/input/event2 > /dev/keycheck& ;;
+    E10*)
+        cat /dev/input/event1 > /dev/keycheck& ;;
+    U20*)
+        cat /dev/input/event0 > /dev/keycheck& ;;
+    E15*)
+        cat /dev/input/event1 > /dev/keycheck& ;;
+esac
+
+sleep 3
+kill -9 $!
+
+if [ -s /dev/keycheck -o -e /data/local/tmp/recoveryboot ]
+then
+    rm -r /data/local/tmp/recoveryboot
+    # remount rootfs rw
+    mount -o remount,rw rootfs /
+    # Umount MTDs
+    umount -l /cache
+    umount -l /data
+    # Mount recovery partition
+    rm -r /sbin
+    rm -r /etc
+    (cd /;tar -xjf /system/recovery/recovery.tar.bz2)
+    # Umount /system
+    umount -l /system
+    # chroot
+    chroot / /init
+    exit
+fi
+
+if [ -e /data/local/tmp/kexecboot ]
+then
+    rm -r /data/local/tmp/kexecboot
+    stop
+    stop servicemanager
+    stop vold
+    stop debuggerd
+    stop ril-daemon
+    stop installd
+    stop keystore
+    stop qmuxd
+    stop akmd2
+    stop media
+    stop dbus
+    stop port-bridge
+    stop wpa_supplicant
+    stop dhcpcd
+    umount /cache
+    umount /sdcard
+    umount /cdrom
+    umount /data/DxDrm/fuse
+    killall -9 DxDrmServerIpc
+    sleep 1
+    insmod /system/kernel/splboot.ko
+    sync
+    cat /system/kernel/miniloader > /proc/splboot/image
+    cat /system/kernel/boot.img > /proc/splboot/boot_img
+    sleep 5
+    echo > /proc/splboot/boot
+fi
+
+/system/bin/charger
+
+if [ -e /system/bin/ramdisk.tar ]
+then
+     # remount rw
+     mount -o remount,rw rootfs /
+     cd /
+     rm -r /sdcard
+     rm init*
+     rm logo.rle
+     rm default.prop
+     tar -xf /system/bin/ramdisk.tar
+     chroot / /init
+     exit
+fi
+
+# Continue booting
+exit
