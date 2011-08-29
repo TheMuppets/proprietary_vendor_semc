@@ -54,6 +54,7 @@ vendor/semc/zeus/proprietary/libpbmlib.so:system/lib/libpbmlib.so \
 vendor/semc/zeus/proprietary/libqmi.so:system/lib/libqmi.so \
 vendor/semc/zeus/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/zeus/proprietary/libuim.so:system/lib/libuim.so \
+vendor/semc/zeus/proprietary/libreference-ril.so:system/lib/libreference-ril.so \
 vendor/semc/zeus/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/zeus/proprietary/libwms.so:system/lib/libwms.so \
 vendor/semc/zeus/proprietary/libwmsts.so:system/lib/libwmsts.so \

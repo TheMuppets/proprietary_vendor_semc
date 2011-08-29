@@ -50,6 +50,7 @@ vendor/semc/mango/proprietary/libpbmlib.so:system/lib/libpbmlib.so \
 vendor/semc/mango/proprietary/libqmi.so:system/lib/libqmi.so \
 vendor/semc/mango/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/mango/proprietary/libuim.so:system/lib/libuim.so \
+vendor/semc/mango/proprietary/libreference-ril.so:system/lib/libreference-ril.so \
 vendor/semc/mango/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/mango/proprietary/libwms.so:system/lib/libwms.so \
 vendor/semc/mango/proprietary/libwmsts.so:system/lib/libwmsts.so \

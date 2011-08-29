@@ -54,9 +54,10 @@ vendor/semc/zeusc/proprietary/libpbmlib.so:system/lib/libpbmlib.so \
 vendor/semc/zeusc/proprietary/libqmi.so:system/lib/libqmi.so \
 vendor/semc/zeusc/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/zeusc/proprietary/libuim.so:system/lib/libuim.so \
+vendor/semc/zeusc/proprietary/libreference-ril.so:system/lib/libreference-ril.so \
 vendor/semc/zeusc/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/zeusc/proprietary/libwms.so:system/lib/libwms.so \
-vendor/semc/zeusc/proprietary/libwmsts.so:system/lib/libwmsts.so
+vendor/semc/zeusc/proprietary/libwmsts.so:system/lib/libwmsts.so \
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \

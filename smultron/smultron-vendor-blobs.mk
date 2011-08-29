@@ -50,6 +50,7 @@ vendor/semc/smultron/proprietary/libpbmlib.so:system/lib/libpbmlib.so \
 vendor/semc/smultron/proprietary/libqmi.so:system/lib/libqmi.so \
 vendor/semc/smultron/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/smultron/proprietary/libuim.so:system/lib/libuim.so \
+vendor/semc/smultron/proprietary/libreference-ril.so:system/lib/libreference-ril.so \
 vendor/semc/smultron/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/smultron/proprietary/libwms.so:system/lib/libwms.so \
 vendor/semc/smultron/proprietary/libwmsts.so:system/lib/libwmsts.so \

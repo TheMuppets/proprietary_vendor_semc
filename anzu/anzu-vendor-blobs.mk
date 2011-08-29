@@ -50,6 +50,7 @@ vendor/semc/anzu/proprietary/libpbmlib.so:system/lib/libpbmlib.so \
 vendor/semc/anzu/proprietary/libqmi.so:system/lib/libqmi.so \
 vendor/semc/anzu/proprietary/libqueue.so:system/lib/libqueue.so \
 vendor/semc/anzu/proprietary/libuim.so:system/lib/libuim.so \
+vendor/semc/anzu/proprietary/libreference-ril.so:system/lib/libreference-ril.so \
 vendor/semc/anzu/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/anzu/proprietary/libwms.so:system/lib/libwms.so \
 vendor/semc/anzu/proprietary/libwmsts.so:system/lib/libwmsts.so \
