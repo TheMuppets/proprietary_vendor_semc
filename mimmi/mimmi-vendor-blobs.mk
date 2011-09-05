@@ -95,8 +95,7 @@ vendor/semc/mimmi/proprietary/lights.default.so:system/lib/hw/lights.delta.so
 ## WIFI & BT TI1271
 PRODUCT_COPY_FILES += \
 vendor/semc/mimmi/proprietary/hciattach:system/bin/hciattach \
-vendor/semc/mimmi/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-vendor/semc/mimmi/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin
+vendor/semc/mimmi/proprietary/nvimport:system/bin/nvimport
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \

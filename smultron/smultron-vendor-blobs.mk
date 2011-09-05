@@ -84,7 +84,16 @@ vendor/semc/smultron/proprietary/libcameraextensionjni.so:system/lib/libcameraex
 vendor/semc/smultron/proprietary/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
 vendor/semc/smultron/proprietary/libface.so:system/lib/libface.so \
 vendor/semc/smultron/proprietary/libgemini.so:system/lib/libgemini.so \
-vendor/semc/smultron/proprietary/libcameralight.so:system/lib/libcameralight.so
+vendor/semc/smultron/proprietary/libcameralight.so:system/lib/libcameralight.so \
+vendor/semc/smultron/proprietary/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
+vendor/semc/smultron/proprietary/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
+vendor/semc/smultron/proprietary/KMO05BN0.dat:system/usr/semc/camera/KMO05BN0.dat \
+vendor/semc/smultron/proprietary/KMO05BN0_BH6476.dat:system/usr/semc/camera/KMO05BN0_BH6476.dat \
+vendor/semc/smultron/proprietary/KMO05BN0_IMX072.dat:system/usr/semc/camera/KMO05BN0_IMX072.dat \
+vendor/semc/smultron/proprietary/LM3560_00_flash.dat:system/usr/semc/camera/LM3560_00_flash.dat \
+vendor/semc/smultron/proprietary/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
+vendor/semc/smultron/proprietary/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
+vendor/semc/smultron/proprietary/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat
 
 
 ## FIRMWARE
@@ -116,7 +125,8 @@ vendor/semc/smultron/proprietary/init.qcom.bt.sh:system/etc/init.bt.sh \
 vendor/semc/smultron/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 vendor/semc/smultron/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
 vendor/semc/smultron/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-vendor/semc/smultron/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
+vendor/semc/smultron/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
+vendor/semc/smultron/proprietary/nvimport:system/bin/nvimport
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \
@@ -140,3 +150,13 @@ vendor/semc/smultron/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 #touch
 PRODUCT_COPY_FILES += \
 vendor/semc/smultron/proprietary/touch_smultron_sony.hex:system/etc/firmware/touch_smultron_sony.hex
+
+## Adreno 200 files
+PRODUCT_COPY_FILES += \
+vendor/semc/smultron/proprietary/libgsl.so:system/lib/libgsl.so \
+vendor/semc/smultron/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+vendor/semc/smultron/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+vendor/semc/smultron/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+vendor/semc/smultron/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
+
+

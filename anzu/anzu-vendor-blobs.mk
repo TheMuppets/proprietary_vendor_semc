@@ -84,7 +84,17 @@ vendor/semc/anzu/proprietary/libcameraextensionjni.so:system/lib/libcameraextens
 vendor/semc/anzu/proprietary/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
 vendor/semc/anzu/proprietary/libface.so:system/lib/libface.so \
 vendor/semc/anzu/proprietary/libgemini.so:system/lib/libgemini.so \
-vendor/semc/anzu/proprietary/libcameralight.so:system/lib/libcameralight.so
+vendor/semc/anzu/proprietary/libcameralight.so:system/lib/libcameralight.so \
+vendor/semc/anzu/proprietary/default_flash.dat:system/usr/semc/camera/default_flash.dat \
+vendor/semc/anzu/proprietary/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
+vendor/semc/anzu/proprietary/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
+vendor/semc/anzu/proprietary/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
+vendor/semc/anzu/proprietary/SOD08BN0_IMX073.dat:system/usr/semc/camera/SOD08BN0_IMX073.dat \
+vendor/semc/anzu/proprietary/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
+vendor/semc/anzu/proprietary/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
+vendor/semc/anzu/proprietary/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat
+
+
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -115,7 +125,8 @@ vendor/semc/anzu/proprietary/init.qcom.bt.sh:system/etc/init.bt.sh \
 vendor/semc/anzu/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 vendor/semc/anzu/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
 vendor/semc/anzu/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-vendor/semc/anzu/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
+vendor/semc/anzu/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
+vendor/semc/anzu/proprietary/nvimport:system/bin/nvimport
 
 
 ## Other libraries and proprietary binaries
@@ -147,5 +158,13 @@ vendor/semc/anzu/proprietary/touch_anzu_sharp_type1.hex:system/etc/firmware/touc
 vendor/semc/anzu/proprietary/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \
 vendor/semc/anzu/proprietary/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \
 vendor/semc/anzu/proprietary/touch_anzu_sony_type2.hex:system/etc/firmware/touch_anzu_sony_type2.hex 
+
+## Adreno 200 files
+PRODUCT_COPY_FILES += \
+vendor/semc/anzu/proprietary/libgsl.so:system/lib/libgsl.so \
+vendor/semc/anzu/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+vendor/semc/anzu/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+vendor/semc/anzu/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+vendor/semc/anzu/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
 

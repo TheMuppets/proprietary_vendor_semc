@@ -94,8 +94,7 @@ vendor/semc/shakira/proprietary/sensors.default.so:system/lib/hw/sensors.delta.s
 ## WIFI & BT TI1271
 PRODUCT_COPY_FILES += \
 vendor/semc/shakira/proprietary/hciattach:system/bin/hciattach \
-vendor/semc/shakira/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-vendor/semc/shakira/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin
+vendor/semc/shakira/proprietary/nvimport:system/bin/nvimport
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \

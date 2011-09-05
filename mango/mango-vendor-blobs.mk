@@ -84,8 +84,16 @@ vendor/semc/mango/proprietary/libcameraextensionjni.so:system/lib/libcameraexten
 vendor/semc/mango/proprietary/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
 vendor/semc/mango/proprietary/libface.so:system/lib/libface.so \
 vendor/semc/mango/proprietary/libgemini.so:system/lib/libgemini.so \
-vendor/semc/mango/proprietary/libcameralight.so:system/lib/libcameralight.so
-
+vendor/semc/mango/proprietary/libcameralight.so:system/lib/libcameralight.so \
+vendor/semc/mango/proprietary/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
+vendor/semc/mango/proprietary/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
+vendor/semc/mango/proprietary/KMO05BN0.dat:system/usr/semc/camera/KMO05BN0.dat \
+vendor/semc/mango/proprietary/KMO05BN0_BH6476.dat:system/usr/semc/camera/KMO05BN0_BH6476.dat \
+vendor/semc/mango/proprietary/KMO05BN0_IMX072.dat:system/usr/semc/camera/KMO05BN0_IMX072.dat \
+vendor/semc/mango/proprietary/LM3561_00_flash.dat:system/usr/semc/camera/LM3561_00_flash.dat \
+vendor/semc/mango/proprietary/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
+vendor/semc/mango/proprietary/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
+vendor/semc/mango/proprietary/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -116,7 +124,8 @@ vendor/semc/mango/proprietary/init.qcom.bt.sh:system/etc/init.bt.sh \
 vendor/semc/mango/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 vendor/semc/mango/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
 vendor/semc/mango/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-vendor/semc/mango/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
+vendor/semc/mango/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
+vendor/semc/mango/proprietary/nvimport:system/bin/nvimport
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \
@@ -143,4 +152,13 @@ vendor/semc/mango/proprietary/touch_mango_sony_type1.hex:system/etc/firmware/tou
 vendor/semc/mango/proprietary/touch_mango_sony_type2.hex:system/etc/firmware/touch_mango_sony_type2.hex \
 vendor/semc/mango/proprietary/touch_mango_seiko.hex:system/etc/firmware/touch_mango_seiko.hex \
 vendor/semc/mango/proprietary/touch_mango_hitachi.hex:system/etc/firmware/touch_mango_hitachi.hex
+
+## Adreno 200 files
+PRODUCT_COPY_FILES += \
+vendor/semc/mango/proprietary/libgsl.so:system/lib/libgsl.so \
+vendor/semc/mango/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+vendor/semc/mango/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+vendor/semc/mango/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+vendor/semc/mango/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
+
 

@@ -94,8 +94,7 @@ vendor/semc/robyn/proprietary/sensors.default.so:system/lib/hw/sensors.delta.so
 ## WIFI & BT TI1271
 PRODUCT_COPY_FILES += \
 vendor/semc/robyn/proprietary/hciattach:system/bin/hciattach \
-vendor/semc/robyn/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-vendor/semc/robyn/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin
+vendor/semc/robyn/proprietary/nvimport:system/bin/nvimport
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \

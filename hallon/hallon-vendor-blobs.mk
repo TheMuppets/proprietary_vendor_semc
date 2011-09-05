@@ -85,7 +85,17 @@ vendor/semc/hallon/proprietary/libcameraextensionjni.so:system/lib/libcameraexte
 vendor/semc/hallon/proprietary/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
 vendor/semc/hallon/proprietary/libface.so:system/lib/libface.so \
 vendor/semc/hallon/proprietary/libgemini.so:system/lib/libgemini.so \
-vendor/semc/hallon/proprietary/libcameralight.so:system/lib/libcameralight.so
+vendor/semc/hallon/proprietary/libcameralight.so:system/lib/libcameralight.so \
+vendor/semc/hallon/proprietary/LM3560_01_flash.dat:system/usr/semc/camera/LM3560_01_flash.dat \
+vendor/semc/hallon/proprietary/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
+vendor/semc/hallon/proprietary/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
+vendor/semc/hallon/proprietary/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
+vendor/semc/hallon/proprietary/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
+vendor/semc/hallon/proprietary/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
+vendor/semc/hallon/proprietary/SOD08BN0_IMX073.dat:system/usr/semc/camera/SOD08BN0_IMX073.dat \
+vendor/semc/hallon/proprietary/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
+vendor/semc/hallon/proprietary/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
+vendor/semc/hallon/proprietary/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -116,7 +126,8 @@ vendor/semc/hallon/proprietary/init.qcom.bt.sh:system/etc/init.bt.sh \
 vendor/semc/hallon/proprietary/tiwlan.ini:system/etc/wifi/tiwlan.ini \
 vendor/semc/hallon/proprietary/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
 vendor/semc/hallon/proprietary/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-vendor/semc/hallon/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin 
+vendor/semc/hallon/proprietary/softap_firmware.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
+vendor/semc/hallon/proprietary/nvimport:system/bin/nvimport
 
 ## Other libraries and proprietary binaries
 PRODUCT_COPY_FILES += \
@@ -144,5 +155,12 @@ PRODUCT_COPY_FILES += \
 vendor/semc/hallon/proprietary/touch_hallon_hitachi.hex:system/etc/firmware/touch_hallon_hitachi.hex \
 vendor/semc/hallon/proprietary/touch_hallon_sony.hex:system/etc/firmware/touch_hallon_sony.hex
 
+## Adreno 200 files
+PRODUCT_COPY_FILES += \
+vendor/semc/hallon/proprietary/libgsl.so:system/lib/libgsl.so \
+vendor/semc/hallon/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+vendor/semc/hallon/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+vendor/semc/hallon/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+vendor/semc/hallon/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
 
