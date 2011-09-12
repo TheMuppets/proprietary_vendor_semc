@@ -113,7 +113,7 @@ vendor/semc/shakira/proprietary/akmd2:system/bin/akmd2
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
-vendor/semc/shakira/proprietary/chargemon:system/bin/charger \
+vendor/semc/shakira/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/shakira/proprietary/libmiscta.so:system/lib/libmiscta.so \
 vendor/semc/shakira/proprietary/semc_chargalg:system/bin/semc_chargalg \
 vendor/semc/shakira/proprietary/updatemiscta:system/bin/updatemiscta 

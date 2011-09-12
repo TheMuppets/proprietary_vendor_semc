@@ -113,7 +113,7 @@ vendor/semc/robyn/proprietary/akmd2:system/bin/akmd2
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
-vendor/semc/robyn/proprietary/chargemon:system/bin/charger \
+vendor/semc/robyn/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/robyn/proprietary/libmiscta.so:system/lib/libmiscta.so \
 vendor/semc/robyn/proprietary/semc_chargalg:system/bin/semc_chargalg \
 vendor/semc/robyn/proprietary/updatemiscta:system/bin/updatemiscta 

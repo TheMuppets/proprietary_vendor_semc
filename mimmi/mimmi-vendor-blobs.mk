@@ -119,7 +119,7 @@ vendor/semc/mimmi/proprietary/slidercounter:system/bin/slidercounter
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
-vendor/semc/mimmi/proprietary/chargemon:system/bin/charger \
+vendor/semc/mimmi/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/mimmi/proprietary/libmiscta.so:system/lib/libmiscta.so \
 vendor/semc/mimmi/proprietary/semc_chargalg:system/bin/semc_chargalg \
 vendor/semc/mimmi/proprietary/updatemiscta:system/bin/updatemiscta 

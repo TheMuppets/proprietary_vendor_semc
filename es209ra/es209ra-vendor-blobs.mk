@@ -50,11 +50,11 @@ vendor/semc/es209ra/proprietary/libwmsts.so:system/lib/libwmsts.so
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
+vendor/semc/es209ra/proprietary/libcamera.so:obj/lib/libcamera.so \
+vendor/semc/es209ra/proprietary/libcamera.so:system/lib/libcamera.so \
 vendor/semc/es209ra/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/semc/es209ra/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
 vendor/semc/es209ra/proprietary/libmmipl.so:system/lib/libmmipl.so
-#vendor/semc/es209ra/proprietary/libcamera.so:obj/lib/libcamera.so \
-#vendor/semc/es209ra/proprietary/libcamera.so:system/lib/libcamera.so \
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -74,7 +74,7 @@ vendor/semc/es209ra/proprietary/hci_qcomm_init:system/bin/hci_qcomm_init \
 vendor/semc/es209ra/proprietary/athwlan.bin.z77:system/lib/modules/athwlan.bin.z77 \
 vendor/semc/es209ra/proprietary/data.patch.hw2_0.bin:system/lib/modules/data.patch.hw2_0.bin \
 vendor/semc/es209ra/proprietary/wlan_mac:system/bin/wlan_mac \
-vendor/semc/es209ra/proprietary/wlan_tool:system/bin/wlan_tool 
+vendor/semc/es209ra/proprietary/wlan_tool:system/bin/wlan_tool
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \
@@ -89,12 +89,12 @@ PRODUCT_COPY_FILES += \
 vendor/semc/es209ra/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/es209ra/proprietary/sensors.default.so:system/lib/hw/sensors.es209ra.so \
 vendor/semc/es209ra/proprietary/copybit.qsd8k.so:system/lib/hw/copybit.es209ra.so \
-vendor/semc/es209ra/proprietary/akmd2:system/bin/akmd2 
+vendor/semc/es209ra/proprietary/akmd2:system/bin/akmd2
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
-vendor/semc/es209ra/proprietary/chargemon:system/bin/charger \
+vendor/semc/es209ra/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/es209ra/proprietary/libmiscta.so:system/lib/libmiscta.so \
-vendor/semc/es209ra/proprietary/updatemiscta:system/bin/updatemiscta 
+vendor/semc/es209ra/proprietary/updatemiscta:system/bin/updatemiscta
 
 
