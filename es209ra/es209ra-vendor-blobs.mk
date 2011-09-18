@@ -50,11 +50,11 @@ vendor/semc/es209ra/proprietary/libwmsts.so:system/lib/libwmsts.so
 
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
-vendor/semc/es209ra/proprietary/libcamera.so:obj/lib/libcamera.so \
-vendor/semc/es209ra/proprietary/libcamera.so:system/lib/libcamera.so \
 vendor/semc/es209ra/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/semc/es209ra/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
 vendor/semc/es209ra/proprietary/libmmipl.so:system/lib/libmmipl.so
+#vendor/semc/es209ra/proprietary/libcamera.so:obj/lib/libcamera.so \
+#vendor/semc/es209ra/proprietary/libcamera.so:system/lib/libcamera.so \
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
@@ -64,8 +64,7 @@ vendor/semc/es209ra/proprietary/camfirm.bin:system/etc/firmware/camfirm.bin \
 
 ## SE Sensors
 PRODUCT_COPY_FILES += \
-vendor/semc/es209ra/proprietary/sensors.default.so:system/lib/hw/sensors.es209ra.so \
-vendor/semc/es209ra/proprietary/copybit.qsd8k.so:system/lib/hw/copybit.es209ra.so
+vendor/semc/es209ra/proprietary/sensors.default.so:system/lib/hw/sensors.es209ra.so
 
 ## ATHEROS WIFI & BT
 PRODUCT_COPY_FILES += \

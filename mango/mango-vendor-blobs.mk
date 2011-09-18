@@ -26,8 +26,9 @@ vendor/semc/mango/proprietary/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
 vendor/semc/mango/proprietary/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
 vendor/semc/mango/proprietary/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
 vendor/semc/mango/proprietary/qwerty.kl:system/usr/keylayout/qwerty.kl \
-vendor/semc/mango/proprietary/simple_remote.kl:system/usr/keylayout/simple_remote.kl
-
+vendor/semc/mango/proprietary/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+vendor/semc/mango/proprietary/cyttsp_key.kl:system/usr/keylayout/cyttsp_key.kl \
+vendor/semc/mango/proprietary/slidercounter:system/bin/slidercounter
 
 ## RIL related stuff 
 PRODUCT_COPY_FILES += \

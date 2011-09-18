@@ -167,4 +167,9 @@ vendor/semc/anzu/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools
 vendor/semc/anzu/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 vendor/semc/anzu/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
+#HDMI
+vendor/semc/anzu/proprietary/SemcHdmiEnabler.apk:system/app/SemcHdmiEnabler.apk
+vendor/semc/anzu/proprietary/SemcHdmiControlSettings.apk:system/app/SemcHdmiControlSettings.apk
+vendor/semc/anzu/proprietary/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar
+vendor/semc/anzu/proprietary/com.sonyericsson.privateapis.xml:system/etc.permissions/com.sonyericsson.privateapis.xml
 

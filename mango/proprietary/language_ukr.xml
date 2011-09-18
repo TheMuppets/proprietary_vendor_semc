@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/language.xsd" script="cyrillic">
+  <BaseCharacter data="а"/>
+  <BaseCharacter data="б"/>
+  <BaseCharacter data="в"/>
+  <BaseCharacter data="г">
+    <Candidate data="ґ"/>
+  </BaseCharacter>
+  <BaseCharacter data="д"/>
+  <BaseCharacter data="е">
+    <Candidate data="є"/>
+    <Candidate data="ё"/>
+  </BaseCharacter>
+  <BaseCharacter data="з"/>
+  <BaseCharacter data="и">
+    <Candidate data="і"/>
+    <Candidate data="ї"/>
+  </BaseCharacter>
+  <BaseCharacter data="й"/>
+  <BaseCharacter data="к"/>
+  <BaseCharacter data="л"/>
+  <BaseCharacter data="м"/>
+  <BaseCharacter data="н"/>
+  <BaseCharacter data="о"/>
+  <BaseCharacter data="п"/>
+  <BaseCharacter data="р"/>
+  <BaseCharacter data="с"/>
+  <BaseCharacter data="т"/>
+  <BaseCharacter data="у"/>
+  <BaseCharacter data="ф"/>
+  <BaseCharacter data="ц"/>
+  <BaseCharacter data="ч"/>
+  <BaseCharacter data="ш"/>
+  <BaseCharacter data="щ"/>
+  <BaseCharacter data="ы"/>
+  <BaseCharacter data="э"/>
+  <BaseCharacter data="ь"/>
+  <BaseCharacter data="я"/>
+  <BaseCharacter data="А"/>
+  <BaseCharacter data="Б"/>
+  <BaseCharacter data="В"/>
+  <BaseCharacter data="Г">
+    <Candidate data="Ґ"/>
+  </BaseCharacter>
+  <BaseCharacter data="Д"/>
+  <BaseCharacter data="Е">
+    <Candidate data="Є"/>
+    <Candidate data="Ё"/>
+  </BaseCharacter>
+  <BaseCharacter data="З"/>
+  <BaseCharacter data="И">
+    <Candidate data="І"/>
+    <Candidate data="Ї"/>
+  </BaseCharacter>
+  <BaseCharacter data="Й"/>
+  <BaseCharacter data="К"/>
+  <BaseCharacter data="Л"/>
+  <BaseCharacter data="М"/>
+  <BaseCharacter data="Н"/>
+  <BaseCharacter data="О"/>
+  <BaseCharacter data="П"/>
+  <BaseCharacter data="Р"/>
+  <BaseCharacter data="С"/>
+  <BaseCharacter data="Т"/>
+  <BaseCharacter data="У"/>
+  <BaseCharacter data="Ф"/>
+  <BaseCharacter data="Ц"/>
+  <BaseCharacter data="Ч"/>
+  <BaseCharacter data="Ш"/>
+  <BaseCharacter data="Щ"/>
+  <BaseCharacter data="Ы"/>
+  <BaseCharacter data="Э"/>
+  <BaseCharacter data="Ь"/>
+  <BaseCharacter data="Я"/>
+</Language>

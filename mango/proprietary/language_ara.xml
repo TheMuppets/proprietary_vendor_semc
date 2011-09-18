@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/language.xsd" script="arabic">
+  <BaseCharacter data="ض"/>
+  <BaseCharacter data="ص"/>
+  <BaseCharacter data="ث"/>
+  <BaseCharacter data="ق"/>
+  <BaseCharacter data="ف"/>
+  <BaseCharacter data="غ"/>
+  <BaseCharacter data="ع"/>
+  <BaseCharacter data="خ"/>
+  <BaseCharacter data="ح"/>
+  <BaseCharacter data="ج"/>
+  <BaseCharacter data="ش"/>
+  <BaseCharacter data="س"/>
+  <BaseCharacter data="ي"/>
+  <BaseCharacter data="ب"/>
+  <BaseCharacter data="ل"/>
+  <BaseCharacter data="ا"/>
+  <BaseCharacter data="ت"/>
+  <BaseCharacter data="ن"/>
+  <BaseCharacter data="م"/>
+  <BaseCharacter data="ك"/>
+  <BaseCharacter data="ئ"/>
+  <BaseCharacter data="ؤ"/>
+  <BaseCharacter data="و"/>
+  <BaseCharacter data="ه"/>
+  <BaseCharacter data="ر"/>
+  <BaseCharacter data="ز"/>
+  <BaseCharacter data="ظ"/>
+  <BaseCharacter data="ط"/>
+  <BaseCharacter data="ذ"/>
+  <BaseCharacter data="د"/>
+  <BaseCharacter data="1">
+    <Candidate data="١"/>
+  </BaseCharacter>
+  <BaseCharacter data="2">
+    <Candidate data="٢"/>
+  </BaseCharacter>
+  <BaseCharacter data="3">
+    <Candidate data="٣"/>
+  </BaseCharacter>
+  <BaseCharacter data="4">
+    <Candidate data="٤"/>
+  </BaseCharacter>
+  <BaseCharacter data="5">
+    <Candidate data="٥"/>
+  </BaseCharacter>
+  <BaseCharacter data="6">
+    <Candidate data="٦"/>
+  </BaseCharacter>
+  <BaseCharacter data="7">
+    <Candidate data="٧"/>
+  </BaseCharacter>
+  <BaseCharacter data="8">
+    <Candidate data="٨"/>
+  </BaseCharacter>
+  <BaseCharacter data="9">
+    <Candidate data="٩"/>
+  </BaseCharacter>
+  <BaseCharacter data="0">
+    <Candidate data="٠"/>
+  </BaseCharacter>
+</Language>
