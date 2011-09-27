@@ -123,3 +123,12 @@ vendor/semc/zeusc/proprietary/playstationcertified.jar:system/framework/playstat
 PRODUCT_COPY_FILES += \
 vendor/semc/zeusc/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk
 
+## Adreno 200 files
+PRODUCT_COPY_FILES += \
+vendor/semc/zeusc/proprietary/libgsl.so:system/lib/libgsl.so \
+vendor/semc/zeusc/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
+vendor/semc/zeusc/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
+vendor/semc/zeusc/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+vendor/semc/zeusc/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
+
+

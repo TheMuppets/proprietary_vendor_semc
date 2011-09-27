@@ -23,6 +23,7 @@ vendor/semc/urushi/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin
 vendor/semc/urushi/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
 vendor/semc/urushi/proprietary/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
 vendor/semc/urushi/proprietary/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+vendor/semc/urushi/proprietary/clearpad.kl:system/usr/keylayout/clearpad.kl \
 vendor/semc/urushi/proprietary/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
 vendor/semc/urushi/proprietary/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
 vendor/semc/urushi/proprietary/qwerty.kl:system/usr/keylayout/qwerty.kl \
@@ -85,7 +86,9 @@ vendor/semc/urushi/proprietary/libcameraextensionservice.so:system/lib/libcamera
 vendor/semc/urushi/proprietary/libface.so:system/lib/libface.so \
 vendor/semc/urushi/proprietary/libgemini.so:system/lib/libgemini.so \
 vendor/semc/urushi/proprietary/libcameralight.so:system/lib/libcameralight.so \
-vendor/semc/urushi/proprietary/default_flash.dat:system/usr/semc/camera/default_flash.dat \
+vendor/semc/urushi/proprietary/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
+vendor/semc/urushi/proprietary/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
+vendor/semc/urushi/proprietary/AS3676_00_flash.dat:system/usr/semc/camera/AS3676_00_flash.dat \
 vendor/semc/urushi/proprietary/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
 vendor/semc/urushi/proprietary/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
 vendor/semc/urushi/proprietary/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
@@ -98,8 +101,8 @@ vendor/semc/urushi/proprietary/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08B
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
-vendor/semc/urushi/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.bqfs \
-vendor/semc/urushi/proprietary/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-anzu_golden.dffs \
+vendor/semc/urushi/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs \
+vendor/semc/urushi/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs \
 vendor/semc/urushi/proprietary/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
 vendor/semc/urushi/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
 vendor/semc/urushi/proprietary/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
@@ -139,9 +142,7 @@ vendor/semc/urushi/proprietary/vold.fstab:system/etc/vold.fstab \
 vendor/semc/urushi/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/urushi/proprietary/sensors.default.so:system/lib/hw/sensors.semc.so \
 vendor/semc/urushi/proprietary/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-vendor/semc/urushi/proprietary/hdmid:system/bin/hdmid \
-vendor/semc/urushi/proprietary/akmd8975:system/bin/akmd8975 \
-vendor/semc/urushi/proprietary/touchd:system/bin/touchd
+vendor/semc/urushi/proprietary/akmd8975:system/bin/akmd8975
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
@@ -154,10 +155,9 @@ vendor/semc/urushi/proprietary/gps.msm7x30.so:system/lib/hw/gps.semc.so
 
 #touch
 PRODUCT_COPY_FILES += \
-vendor/semc/urushi/proprietary/touch_anzu_sharp_type1.hex:system/etc/firmware/touch_anzu_sharp_type1.hex \
-vendor/semc/urushi/proprietary/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \
-vendor/semc/urushi/proprietary/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \
-vendor/semc/urushi/proprietary/touch_anzu_sony_type2.hex:system/etc/firmware/touch_anzu_sony_type2.hex 
+vendor/semc/urushi/proprietary/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
+vendor/semc/urushi/proprietary/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
+vendor/semc/urushi/proprietary/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img 
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \
@@ -167,4 +167,10 @@ vendor/semc/urushi/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtoo
 vendor/semc/urushi/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 vendor/semc/urushi/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
+#ANT*
+PRODUCT_COPY_FILES += \
+vendor/semc/urushi/proprietary/AntHalService.apk:system/app/AntHalService.apk \
+vendor/semc/urushi/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+vendor/semc/urushi/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+vendor/semc/urushi/proprietary/libanthal.so:system/lib/libanthal.so
 

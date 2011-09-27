@@ -52,19 +52,15 @@ vendor/semc/es209ra/proprietary/libwmsts.so:system/lib/libwmsts.so
 PRODUCT_COPY_FILES += \
 vendor/semc/es209ra/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/semc/es209ra/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-vendor/semc/es209ra/proprietary/libmmipl.so:system/lib/libmmipl.so
-#vendor/semc/es209ra/proprietary/libcamera.so:obj/lib/libcamera.so \
-#vendor/semc/es209ra/proprietary/libcamera.so:system/lib/libcamera.so \
+vendor/semc/es209ra/proprietary/libmmipl.so:system/lib/libmmipl.so \
+vendor/semc/es209ra/proprietary/libcamera.so:obj/lib/libcamerasemc.so \
+vendor/semc/es209ra/proprietary/libcamera.so:system/lib/libcamerasemc.so
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
 vendor/semc/es209ra/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 vendor/semc/es209ra/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 vendor/semc/es209ra/proprietary/camfirm.bin:system/etc/firmware/camfirm.bin \
-
-## SE Sensors
-PRODUCT_COPY_FILES += \
-vendor/semc/es209ra/proprietary/sensors.default.so:system/lib/hw/sensors.es209ra.so
 
 ## ATHEROS WIFI & BT
 PRODUCT_COPY_FILES += \
@@ -87,13 +83,13 @@ vendor/semc/es209ra/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_
 PRODUCT_COPY_FILES += \
 vendor/semc/es209ra/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/es209ra/proprietary/sensors.default.so:system/lib/hw/sensors.es209ra.so \
-vendor/semc/es209ra/proprietary/copybit.qsd8k.so:system/lib/hw/copybit.es209ra.so \
 vendor/semc/es209ra/proprietary/akmd2:system/bin/akmd2
 
 #offline charging animation
 PRODUCT_COPY_FILES += \
 vendor/semc/es209ra/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/es209ra/proprietary/libmiscta.so:system/lib/libmiscta.so \
+vendor/semc/es209ra/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
 vendor/semc/es209ra/proprietary/updatemiscta:system/bin/updatemiscta
 
 

@@ -20,6 +20,7 @@
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
 vendor/semc/smultron/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
+vendor/semc/smultron/proprietary/qwerty.kcm.bin:system/usr/keychars/pm8058-keypad.kcm.bin \
 vendor/semc/smultron/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
 vendor/semc/smultron/proprietary/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
 vendor/semc/smultron/proprietary/AVRCP.kl:system/usr/keylayout/AVRCP.kl \

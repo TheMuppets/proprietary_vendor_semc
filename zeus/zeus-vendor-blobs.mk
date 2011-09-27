@@ -126,7 +126,7 @@ vendor/semc/zeus/proprietary/com.sony.android.playstationcertified.xml:system/et
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/xperiaplaycertified.jar:system/framework/xperiaplaycertified.jar \
 vendor/semc/zeus/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar \
-vendor/semc/zeus/proprietary/getgames.apk:system/app/getgames.apk
+vendor/semc/zeus/proprietary/com.sonyericsson.androidapp.storefront.apk:system/app/com.sonyericsson.androidapp.storefront.apk
 
 PRODUCT_COPY_FILES += \
 vendor/semc/zeus/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk

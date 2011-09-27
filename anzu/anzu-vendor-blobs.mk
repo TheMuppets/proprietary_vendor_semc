@@ -20,6 +20,7 @@
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
 vendor/semc/anzu/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
+vendor/semc/anzu/proprietary/qwerty.kcm.bin:system/usr/keychars/pm8058-keypad.kcm.bin \
 vendor/semc/anzu/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
 vendor/semc/anzu/proprietary/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
 vendor/semc/anzu/proprietary/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
@@ -167,4 +168,9 @@ vendor/semc/anzu/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools
 vendor/semc/anzu/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 vendor/semc/anzu/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
+#HDMI
+vendor/semc/anzu/proprietary/SemcHdmiEnabler.apk:system/app/SemcHdmiEnabler.apk
+vendor/semc/anzu/proprietary/SemcHdmiControlSettings.apk:system/app/SemcHdmiControlSettings.apk
+vendor/semc/anzu/proprietary/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar
+vendor/semc/anzu/proprietary/com.sonyericsson.privateapis.xml:system/etc.permissions/com.sonyericsson.privateapis.xml
 
