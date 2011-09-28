@@ -83,6 +83,7 @@ vendor/semc/es209ra/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_
 PRODUCT_COPY_FILES += \
 vendor/semc/es209ra/proprietary/sensors.conf:system/etc/sensors.conf \
 vendor/semc/es209ra/proprietary/sensors.default.so:system/lib/hw/sensors.es209ra.so \
+vendor/semc/es209ra/proprietary/gralloc.es209ra.so:system/lib/hw/gralloc.es209ra.so \
 vendor/semc/es209ra/proprietary/akmd2:system/bin/akmd2
 
 #offline charging animation
