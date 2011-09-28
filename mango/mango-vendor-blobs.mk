@@ -163,4 +163,69 @@ vendor/semc/mango/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtool
 vendor/semc/mango/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 vendor/semc/mango/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
+#hardware keyboard layout
+PRODUCT_COPY_FILES += \
+vendor/semc/mango/proprietary/keyprint.xml:system/usr/keyboard-config/keyprint.xml \
+vendor/semc/mango/proprietary/scancode_mapping.xml:system/usr/keyboard-config//scancode_mapping.xml \
+vendor/semc/mango/proprietary/language_ara.xml:system/usr/keyboard-config/languages/language_ara.xml \
+vendor/semc/mango/proprietary/language_bos.xml:system/usr/keyboard-config/languages/language_bos.xml \
+vendor/semc/mango/proprietary/language_bul.xml:system/usr/keyboard-config/languages/language_bul.xml \
+vendor/semc/mango/proprietary/language_cat.xml:system/usr/keyboard-config/languages/language_cat.xml \
+vendor/semc/mango/proprietary/language_ces.xml:system/usr/keyboard-config/languages/language_ces.xml \
+vendor/semc/mango/proprietary/language_dan.xml:system/usr/keyboard-config/languages/language_dan.xml \
+vendor/semc/mango/proprietary/language_deu.xml:system/usr/keyboard-config/languages/language_deu.xml \
+vendor/semc/mango/proprietary/language_ell.xml:system/usr/keyboard-config/languages/language_ell.xml \
+vendor/semc/mango/proprietary/language_eng.xml:system/usr/keyboard-config/languages/language_eng.xml \
+vendor/semc/mango/proprietary/language_esp.xml:system/usr/keyboard-config/languages/language_esp.xml \
+vendor/semc/mango/proprietary/language_est.xml:system/usr/keyboard-config/languages/language_est.xml \
+vendor/semc/mango/proprietary/language_eus.xml:system/usr/keyboard-config/languages/language_eus.xml \
+vendor/semc/mango/proprietary/language_fas.xml:system/usr/keyboard-config/languages/language_fas.xml \
+vendor/semc/mango/proprietary/language_fin.xml:system/usr/keyboard-config/languages/language_fin.xml \
+vendor/semc/mango/proprietary/language_fra.xml:system/usr/keyboard-config/languages/language_fra.xml \
+vendor/semc/mango/proprietary/language_glg.xml:system/usr/keyboard-config/languages/language_glg.xml \
+vendor/semc/mango/proprietary/language_heb.xml:system/usr/keyboard-config/languages/language_heb.xml \
+vendor/semc/mango/proprietary/language_hrv.xml:system/usr/keyboard-config/languages/language_hrv.xml \
+vendor/semc/mango/proprietary/language_hun.xml:system/usr/keyboard-config/languages/language_hun.xml \
+vendor/semc/mango/proprietary/language_ind.xml:system/usr/keyboard-config/languages/language_ind.xml \
+vendor/semc/mango/proprietary/language_isl.xml:system/usr/keyboard-config/languages/language_isl.xml \
+vendor/semc/mango/proprietary/language_ita.xml:system/usr/keyboard-config/languages/language_ita.xml \
+vendor/semc/mango/proprietary/language_jav.xml:system/usr/keyboard-config/languages/language_jav.xml \
+vendor/semc/mango/proprietary/language_kaz.xml:system/usr/keyboard-config/languages/language_kaz.xml \
+vendor/semc/mango/proprietary/language_lav.xml:system/usr/keyboard-config/languages/language_lav.xml \
+vendor/semc/mango/proprietary/language_lit.xml:system/usr/keyboard-config/languages/language_lit.xml \
+vendor/semc/mango/proprietary/language_mkd.xml:system/usr/keyboard-config/languages/language_mkd.xml \
+vendor/semc/mango/proprietary/language_msa.xml:system/usr/keyboard-config/languages/language_msa.xml \
+vendor/semc/mango/proprietary/language_nld.xml:system/usr/keyboard-config/languages/language_nld.xml \
+vendor/semc/mango/proprietary/language_nor.xml:system/usr/keyboard-config/languages/language_nor.xml \
+vendor/semc/mango/proprietary/language_pol.xml:system/usr/keyboard-config/languages/language_pol.xml \
+vendor/semc/mango/proprietary/language_por.xml:system/usr/keyboard-config/languages/language_por.xml \
+vendor/semc/mango/proprietary/language_ron.xml:system/usr/keyboard-config/languages/language_ron.xml \
+vendor/semc/mango/proprietary/language_rus.xml:system/usr/keyboard-config/languages/language_rus.xml \
+vendor/semc/mango/proprietary/language_slk.xml:system/usr/keyboard-config/languages/language_slk.xml \
+vendor/semc/mango/proprietary/language_slv.xml:system/usr/keyboard-config/languages/language_slv.xml \
+vendor/semc/mango/proprietary/language_sqi.xml:system/usr/keyboard-config/languages/language_sqi.xml \
+vendor/semc/mango/proprietary/language_srp.xml:system/usr/keyboard-config/languages/language_srp.xml \
+vendor/semc/mango/proprietary/language_sun.xml:system/usr/keyboard-config/languages/language_sun.xml \
+vendor/semc/mango/proprietary/language_swe.xml:system/usr/keyboard-config/languages/language_swe.xml \
+vendor/semc/mango/proprietary/language_tgl.xml:system/usr/keyboard-config/languages/language_tgl.xml \
+vendor/semc/mango/proprietary/language_tha.xml:system/usr/keyboard-config/languages/language_tha.xml \
+vendor/semc/mango/proprietary/language_tur.xml:system/usr/keyboard-config/languages/language_tur.xml \
+vendor/semc/mango/proprietary/language_ukr.xml:system/usr/keyboard-config/languages/language_ukr.xml \
+vendor/semc/mango/proprietary/language_vie.xml:system/usr/keyboard-config/languages/language_vie.xml \
+vendor/semc/mango/proprietary/arabic.xml:system/usr/keyboard-config/layouts/arabic.xml \
+vendor/semc/mango/proprietary/azerty.xml:system/usr/keyboard-config/layouts/azerty.xml \
+vendor/semc/mango/proprietary/bopomofo.xml:system/usr/keyboard-config/layouts/bopomofo.xml \
+vendor/semc/mango/proprietary/cyrillic.xml:system/usr/keyboard-config/layouts/cyrillic.xml \
+vendor/semc/mango/proprietary/greek.xml:system/usr/keyboard-config/layouts/greek.xml \
+vendor/semc/mango/proprietary/hebrew.xml:system/usr/keyboard-config/layouts/hebrew.xml \
+vendor/semc/mango/proprietary/korean.xml:system/usr/keyboard-config/layouts/korean.xml \
+vendor/semc/mango/proprietary/qwerty-br.xml:system/usr/keyboard-config/layouts/qwerty-br.xml \
+vendor/semc/mango/proprietary/qwerty-cn-hk.xml:system/usr/keyboard-config/layouts/qwerty-cn-hk.xml \
+vendor/semc/mango/proprietary/qwerty-en.xml:system/usr/keyboard-config/layouts/qwerty-en.xml \
+vendor/semc/mango/proprietary/qwerty-jp.xml:system/usr/keyboard-config/layouts/qwerty-jp.xml \
+vendor/semc/mango/proprietary/qwerty-no-dk.xml:system/usr/keyboard-config/layouts/qwerty-no-dk.xml \
+vendor/semc/mango/proprietary/qwerty-se-fi.xml:system/usr/keyboard-config/layouts/qwerty-se-fi.xml \
+vendor/semc/mango/proprietary/qwertz.xml:system/usr/keyboard-config/layouts/qwertz.xml \
+vendor/semc/mango/proprietary/thai.xml:system/usr/keyboard-config/layouts/thai.xml 
+
 
