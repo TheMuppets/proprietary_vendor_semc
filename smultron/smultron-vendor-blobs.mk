@@ -160,4 +160,10 @@ vendor/semc/smultron/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dt
 vendor/semc/smultron/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 vendor/semc/smultron/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
+#ANT*
+PRODUCT_COPY_FILES += \
+vendor/semc/smultron/proprietary/AntHalService.apk:system/app/AntHalService.apk \
+vendor/semc/smultron/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+vendor/semc/smultron/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+vendor/semc/smultron/proprietary/libanthal.so:system/lib/libanthal.so
 

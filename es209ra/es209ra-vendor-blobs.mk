@@ -90,7 +90,10 @@ vendor/semc/es209ra/proprietary/akmd2:system/bin/akmd2
 PRODUCT_COPY_FILES += \
 vendor/semc/es209ra/proprietary/chargemon:system/bin/chargemon \
 vendor/semc/es209ra/proprietary/libmiscta.so:system/lib/libmiscta.so \
-vendor/semc/es209ra/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
 vendor/semc/es209ra/proprietary/updatemiscta:system/bin/updatemiscta
 
+#OMX
+PRODUCT_COPY_FILES += \
+vendor/semc/es209ra/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so \
+vendor/semc/es209ra/proprietary/libstagefrighthw.so:system/lib/libstagefrighthw.so
 

@@ -124,4 +124,10 @@ vendor/semc/robyn/proprietary/hal_seport.default.so:system/lib/hw/hal_seport.del
 vendor/semc/robyn/proprietary/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
 vendor/semc/robyn/proprietary/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so 
 
+#ANT*
+PRODUCT_COPY_FILES += \
+vendor/semc/robyn/proprietary/AntHalService.apk:system/app/AntHalService.apk \
+vendor/semc/robyn/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+vendor/semc/robyn/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+vendor/semc/robyn/proprietary/libanthal.so:system/lib/libanthal.so
 

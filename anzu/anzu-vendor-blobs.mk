@@ -169,8 +169,16 @@ vendor/semc/anzu/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200
 vendor/semc/anzu/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so
 
 #HDMI
-vendor/semc/anzu/proprietary/SemcHdmiEnabler.apk:system/app/SemcHdmiEnabler.apk
-vendor/semc/anzu/proprietary/SemcHdmiControlSettings.apk:system/app/SemcHdmiControlSettings.apk
-vendor/semc/anzu/proprietary/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar
+PRODUCT_COPY_FILES += \
+vendor/semc/anzu/proprietary/SemcHdmiEnabler.apk:system/app/SemcHdmiEnabler.apk \
+vendor/semc/anzu/proprietary/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
+vendor/semc/anzu/proprietary/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
 vendor/semc/anzu/proprietary/com.sonyericsson.privateapis.xml:system/etc.permissions/com.sonyericsson.privateapis.xml
+
+#ANT*
+PRODUCT_COPY_FILES += \
+vendor/semc/anzu/proprietary/AntHalService.apk:system/app/AntHalService.apk \
+vendor/semc/anzu/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+vendor/semc/anzu/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+vendor/semc/anzu/proprietary/libanthal.so:system/lib/libanthal.so
 

@@ -228,4 +228,10 @@ vendor/semc/mango/proprietary/qwerty-se-fi.xml:system/usr/keyboard-config/layout
 vendor/semc/mango/proprietary/qwertz.xml:system/usr/keyboard-config/layouts/qwertz.xml \
 vendor/semc/mango/proprietary/thai.xml:system/usr/keyboard-config/layouts/thai.xml 
 
+#ANT*
+PRODUCT_COPY_FILES += \
+vendor/semc/mango/proprietary/AntHalService.apk:system/app/AntHalService.apk \
+vendor/semc/mango/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+vendor/semc/mango/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+vendor/semc/mango/proprietary/libanthal.so:system/lib/libanthal.so
 

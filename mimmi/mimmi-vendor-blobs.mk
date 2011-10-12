@@ -130,4 +130,10 @@ vendor/semc/mimmi/proprietary/hal_seport.default.so:system/lib/hw/hal_seport.del
 vendor/semc/mimmi/proprietary/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
 vendor/semc/mimmi/proprietary/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so 
 
+#ANT*
+PRODUCT_COPY_FILES += \
+vendor/semc/mimmi/proprietary/AntHalService.apk:system/app/AntHalService.apk \
+vendor/semc/mimmi/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+vendor/semc/mimmi/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+vendor/semc/mimmi/proprietary/libanthal.so:system/lib/libanthal.so
 
