@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/language.xsd" script="cyrillic">
+  <BaseCharacter data="а">
+    <Candidate data="ә"/>
+  </BaseCharacter>
+  <BaseCharacter data="б"/>
+  <BaseCharacter data="в"/>
+  <BaseCharacter data="г">
+    <Candidate data="ғ"/>
+  </BaseCharacter>
+  <BaseCharacter data="д"/>
+  <BaseCharacter data="е">
+    <Candidate data="ё"/>
+  </BaseCharacter>
+  <BaseCharacter data="з"/>
+  <BaseCharacter data="и"/>
+  <BaseCharacter data="й"/>
+  <BaseCharacter data="к">
+    <Candidate data="қ"/>
+  </BaseCharacter>
+  <BaseCharacter data="л"/>
+  <BaseCharacter data="м"/>
+  <BaseCharacter data="н">
+    <Candidate data="ң"/>
+  </BaseCharacter>
+  <BaseCharacter data="о">
+    <Candidate data="ө"/>
+  </BaseCharacter>
+  <BaseCharacter data="п"/>
+  <BaseCharacter data="р"/>
+  <BaseCharacter data="с"/>
+  <BaseCharacter data="т"/>
+  <BaseCharacter data="у">
+    <Candidate data="ұ"/>
+    <Candidate data="ү"/>
+  </BaseCharacter>
+  <BaseCharacter data="ф"/>
+  <BaseCharacter data="ц"/>
+  <BaseCharacter data="ч"/>
+  <BaseCharacter data="ш">
+    <Candidate data="һ"/>
+  </BaseCharacter>
+  <BaseCharacter data="щ"/>
+  <BaseCharacter data="ы">
+    <Candidate data="і"/>
+  </BaseCharacter>
+  <BaseCharacter data="э"/>
+  <BaseCharacter data="ь"/>
+  <BaseCharacter data="я"/>
+  <BaseCharacter data="А">
+    <Candidate data="Ә"/>
+  </BaseCharacter>
+  <BaseCharacter data="Б"/>
+  <BaseCharacter data="В"/>
+  <BaseCharacter data="Г">
+    <Candidate data="Ғ"/>
+  </BaseCharacter>
+  <BaseCharacter data="Д"/>
+  <BaseCharacter data="Е">
+    <Candidate data="Ё"/>
+  </BaseCharacter>
+  <BaseCharacter data="З"/>
+  <BaseCharacter data="И"/>
+  <BaseCharacter data="Й"/>
+  <BaseCharacter data="К">
+    <Candidate data="Қ"/>
+  </BaseCharacter>
+  <BaseCharacter data="Л"/>
+  <BaseCharacter data="М"/>
+  <BaseCharacter data="Н">
+    <Candidate data="Ң"/>
+  </BaseCharacter>
+  <BaseCharacter data="О">
+    <Candidate data="Ө"/>
+  </BaseCharacter>
+  <BaseCharacter data="П"/>
+  <BaseCharacter data="Р"/>
+  <BaseCharacter data="С"/>
+  <BaseCharacter data="Т"/>
+  <BaseCharacter data="У">
+    <Candidate data="Ұ"/>
+    <Candidate data="Ү"/>
+  </BaseCharacter>
+  <BaseCharacter data="Ф"/>
+  <BaseCharacter data="Ц"/>
+  <BaseCharacter data="Ч"/>
+  <BaseCharacter data="Ш">
+    <Candidate data="Һ"/>
+  </BaseCharacter>
+  <BaseCharacter data="Щ"/>
+  <BaseCharacter data="Ы">
+    <Candidate data="І"/>
+  </BaseCharacter>
+  <BaseCharacter data="Э"/>
+  <BaseCharacter data="Ь"/>
+  <BaseCharacter data="Я"/>
+</Language>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../scancode_mapping.xsd">
+  <!-- First row -->
+  <Row>
+    <MappingKey scancode="16" id="C1.1" />
+    <MappingKey scancode="17" id="C1.2" />
+    <MappingKey scancode="18" id="C1.3" />
+    <MappingKey scancode="19" id="C1.4" />
+    <MappingKey scancode="20" id="C1.5" />
+    <MappingKey scancode="21" id="C1.6" />
+    <MappingKey scancode="22" id="C1.7" />
+    <MappingKey scancode="23" id="C1.8" />
+    <MappingKey scancode="24" id="C1.9" />
+    <MappingKey scancode="25" id="C1.10" />
+    <MappingMetaKey scancode="14" id="META_DELETE" />
+  </Row>
+  <!-- Second row -->
+  <Row>
+    <MappingKey scancode="30" id="C2.1" />
+    <MappingKey scancode="31" id="C2.2" />
+    <MappingKey scancode="32" id="C2.3" />
+    <MappingKey scancode="33" id="C2.4" />
+    <MappingKey scancode="34" id="C2.5" />
+    <MappingKey scancode="35" id="C2.6" />
+    <MappingKey scancode="36" id="C2.7" />
+    <MappingKey scancode="37" id="C2.8" />
+    <MappingKey scancode="38" id="C2.9" />
+    <MappingKey scancode="40" id="C2.10" />
+    <MappingMetaKey scancode="28" id="META_ENTER" />
+  </Row>
+  <!-- Third row -->
+  <Row>
+    <MappingMetaKey scancode="42" id="META_SHIFT_LEFT" />
+    <MappingKey scancode="44" id="C3.1" />
+    <MappingKey scancode="45" id="C3.2" />
+    <MappingKey scancode="46" id="C3.3" />
+    <MappingKey scancode="47" id="C3.4" />
+    <MappingKey scancode="48" id="C3.5" />
+    <MappingKey scancode="49" id="C3.6" />
+    <MappingKey scancode="50" id="C3.7" />
+    <MappingKey scancode="27" id="C3.8" />
+    <MappingMetaKey scancode="103" id="META_DPAD_UP" />
+    <MappingMetaKey scancode="368" id="META_LANGUAGE" />
+  </Row>
+  <!-- Fourth row -->
+  <Row>
+    <MappingMetaKey scancode="56" id="META_ALT_LEFT" />
+    <MappingMetaKey scancode="127" id="META_SYMBOL" />
+    <MappingKey scancode="26" id="C4.1" />
+    <MappingKey scancode="51" id="C4.2" />
+    <MappingMetaKey scancode="57" id="META_SPACE" />
+    <MappingKey scancode="52" id="C4.4" />
+    <MappingMetaKey scancode="105" id="META_DPAD_LEFT" />
+    <MappingMetaKey scancode="108" id="META_DPAD_DOWN" />
+    <MappingMetaKey scancode="106" id="META_DPAD_RIGHT" />
+  </Row>
+  <!-- Back key -->
+  <Row>
+    <MappingMetaKey scancode="158" id="META_BACK" />
+  </Row>
+</Keyboard>

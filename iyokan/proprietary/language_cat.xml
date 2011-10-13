@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/language.xsd" script="latin">
+  <BaseCharacter data="a">
+    <Candidate data="à"/>
+    <Candidate data="á"/>
+    <Candidate data="ä"/>
+    <Candidate data="â"/>
+    <Candidate data="ã"/>
+    <Candidate data="æ"/>
+    <Candidate data="ą"/>
+    <Candidate data="å"/>
+    <Candidate data="ā"/>
+    <Candidate data="ă"/>
+  </BaseCharacter>
+  <BaseCharacter data="b"/>
+  <BaseCharacter data="c">
+    <Candidate data="ç"/>
+    <Candidate data="č"/>
+    <Candidate data="ć"/>
+  </BaseCharacter>
+  <BaseCharacter data="d">
+    <Candidate data="đ"/>
+    <Candidate data="ď"/>
+    <Candidate data="ð"/>
+  </BaseCharacter>
+  <BaseCharacter data="e">
+    <Candidate data="é"/>
+    <Candidate data="è"/>
+    <Candidate data="ë"/>
+    <Candidate data="ê"/>
+    <Candidate data="ě"/>
+    <Candidate data="ę"/>
+    <Candidate data="ē"/>
+    <Candidate data="ė"/>
+    <Candidate data="ẹ"/>
+  </BaseCharacter>
+  <BaseCharacter data="f"/>
+  <BaseCharacter data="g">
+    <Candidate data="ğ"/>
+    <Candidate data="ģ"/>
+  </BaseCharacter>
+  <BaseCharacter data="h"/>
+  <BaseCharacter data="i">
+    <Candidate data="í"/>
+    <Candidate data="ï"/>
+    <Candidate data="ì"/>
+    <Candidate data="î"/>
+    <Candidate data="ı"/>
+    <Candidate data="ī"/>
+    <Candidate data="į"/>
+    <Candidate data="ị"/>
+  </BaseCharacter>
+  <BaseCharacter data="j"/>
+  <BaseCharacter data="k">
+    <Candidate data="ķ"/>
+  </BaseCharacter>
+  <BaseCharacter data="l">
+    <Candidate data="ĺ"/>
+    <Candidate data="ľ"/>
+    <Candidate data="ł"/>
+    <Candidate data="ļ"/>
+  </BaseCharacter>
+  <BaseCharacter data="m"/>
+  <BaseCharacter data="n">
+    <Candidate data="ñ"/>
+    <Candidate data="ň"/>
+    <Candidate data="ń"/>
+    <Candidate data="ņ"/>
+  </BaseCharacter>
+  <BaseCharacter data="o">
+    <Candidate data="ó"/>
+    <Candidate data="ò"/>
+    <Candidate data="ö"/>
+    <Candidate data="ô"/>
+    <Candidate data="õ"/>
+    <Candidate data="ø"/>
+    <Candidate data="ő"/>
+    <Candidate data="ọ"/>
+    <Candidate data="ơ"/>
+    <Candidate data="œ"/>
+  </BaseCharacter>
+  <BaseCharacter data="p"/>
+  <BaseCharacter data="q"/>
+  <BaseCharacter data="r">
+    <Candidate data="ř"/>
+    <Candidate data="ŕ"/>
+    <Candidate data="ŗ"/>
+  </BaseCharacter>
+  <BaseCharacter data="s">
+    <Candidate data="ş"/>
+    <Candidate data="š"/>
+    <Candidate data="ś"/>
+    <Candidate data="ß"/>
+  </BaseCharacter>
+  <BaseCharacter data="t">
+    <Candidate data="þ"/>
+    <Candidate data="ť"/>
+    <Candidate data="ţ"/>
+  </BaseCharacter>
+  <BaseCharacter data="u">
+    <Candidate data="ú"/>
+    <Candidate data="ü"/>
+    <Candidate data="ù"/>
+    <Candidate data="û"/>
+    <Candidate data="ů"/>
+    <Candidate data="ū"/>
+    <Candidate data="ų"/>
+    <Candidate data="ű"/>
+    <Candidate data="ụ"/>
+    <Candidate data="ư"/>
+  </BaseCharacter>
+  <BaseCharacter data="v"/>
+  <BaseCharacter data="w"/>
+  <BaseCharacter data="x"/>
+  <BaseCharacter data="y">
+    <Candidate data="ý"/>
+  </BaseCharacter>
+  <BaseCharacter data="z">
+    <Candidate data="ž"/>
+    <Candidate data="ź"/>
+    <Candidate data="ż"/>
+  </BaseCharacter>
+  <BaseCharacter data="ç"/>
+  <BaseCharacter data="A">
+    <Candidate data="À"/>
+    <Candidate data="Á"/>
+    <Candidate data="Ä"/>
+    <Candidate data="Â"/>
+    <Candidate data="Ã"/>
+    <Candidate data="Æ"/>
+    <Candidate data="Ą"/>
+    <Candidate data="Å"/>
+    <Candidate data="Ā"/>
+    <Candidate data="Ă"/>
+  </BaseCharacter>
+  <BaseCharacter data="B"/>
+  <BaseCharacter data="C">
+    <Candidate data="Ç"/>
+    <Candidate data="Č"/>
+    <Candidate data="Ć"/>
+  </BaseCharacter>
+  <BaseCharacter data="D">
+    <Candidate data="Đ"/>
+    <Candidate data="Ď"/>
+    <Candidate data="Ð"/>
+  </BaseCharacter>
+  <BaseCharacter data="E">
+    <Candidate data="É"/>
+    <Candidate data="È"/>
+    <Candidate data="Ë"/>
+    <Candidate data="Ê"/>
+    <Candidate data="Ě"/>
+    <Candidate data="Ę"/>
+    <Candidate data="Ē"/>
+    <Candidate data="Ė"/>
+    <Candidate data="Ẹ"/>
+  </BaseCharacter>
+  <BaseCharacter data="F"/>
+  <BaseCharacter data="G">
+    <Candidate data="Ğ"/>
+    <Candidate data="Ģ"/>
+  </BaseCharacter>
+  <BaseCharacter data="H"/>
+  <BaseCharacter data="I">
+    <Candidate data="Í"/>
+    <Candidate data="Ï"/>
+    <Candidate data="Ì"/>
+    <Candidate data="Î"/>
+    <Candidate data="İ"/>
+    <Candidate data="Ī"/>
+    <Candidate data="Į"/>
+    <Candidate data="Ị"/>
+  </BaseCharacter>
+  <BaseCharacter data="J"/>
+  <BaseCharacter data="K">
+    <Candidate data="Ķ"/>
+  </BaseCharacter>
+  <BaseCharacter data="L">
+    <Candidate data="Ĺ"/>
+    <Candidate data="Ľ"/>
+    <Candidate data="Ł"/>
+    <Candidate data="Ļ"/>
+  </BaseCharacter>
+  <BaseCharacter data="M"/>
+  <BaseCharacter data="N">
+    <Candidate data="Ñ"/>
+    <Candidate data="Ň"/>
+    <Candidate data="Ń"/>
+    <Candidate data="Ņ"/>
+  </BaseCharacter>
+  <BaseCharacter data="O">
+    <Candidate data="Ó"/>
+    <Candidate data="Ò"/>
+    <Candidate data="Ö"/>
+    <Candidate data="Ô"/>
+    <Candidate data="Õ"/>
+    <Candidate data="Ø"/>
+    <Candidate data="Ő"/>
+    <Candidate data="Ọ"/>
+    <Candidate data="Ơ"/>
+    <Candidate data="Œ"/>
+  </BaseCharacter>
+  <BaseCharacter data="P"/>
+  <BaseCharacter data="Q"/>
+  <BaseCharacter data="R">
+    <Candidate data="Ř"/>
+    <Candidate data="Ŕ"/>
+    <Candidate data="Ŗ"/>
+  </BaseCharacter>
+  <BaseCharacter data="S">
+    <Candidate data="Ş"/>
+    <Candidate data="Š"/>
+    <Candidate data="Ś"/>
+    <Candidate data="ß"/>
+  </BaseCharacter>
+  <BaseCharacter data="T">
+    <Candidate data="Þ"/>
+    <Candidate data="Ť"/>
+    <Candidate data="Ţ"/>
+  </BaseCharacter>
+  <BaseCharacter data="U">
+    <Candidate data="Ú"/>
+    <Candidate data="Ü"/>
+    <Candidate data="Ù"/>
+    <Candidate data="Û"/>
+    <Candidate data="Ů"/>
+    <Candidate data="Ū"/>
+    <Candidate data="Ų"/>
+    <Candidate data="Ű"/>
+    <Candidate data="Ụ"/>
+    <Candidate data="Ư"/>
+  </BaseCharacter>
+  <BaseCharacter data="V"/>
+  <BaseCharacter data="W"/>
+  <BaseCharacter data="X"/>
+  <BaseCharacter data="Y">
+    <Candidate data="Ý"/>
+  </BaseCharacter>
+  <BaseCharacter data="Z">
+    <Candidate data="Ž"/>
+    <Candidate data="Ź"/>
+    <Candidate data="Ż"/>
+  </BaseCharacter>
+  <BaseCharacter data="Ç"/>
+</Language>
