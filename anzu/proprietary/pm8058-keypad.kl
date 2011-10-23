@@ -1,4 +1,4 @@
-# this corresponds to kernel/arch/arm/mach-msm/keypad-anzu.c
+# this corresponds to kernel/arch/arm/mach-msm/keypad-ayame.c
 #
 # defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 

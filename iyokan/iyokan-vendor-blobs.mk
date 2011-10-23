@@ -19,6 +19,9 @@
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
+vendor/semc/iyokan/proprietary/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
+vendor/semc/iyokan/proprietary/us104-keyboard.kl:system/usr/keylayout/104-keyboard.kl \
+vendor/semc/iyokan/proprietary/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
 vendor/semc/iyokan/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
 vendor/semc/iyokan/proprietary/qwerty.kcm.bin:system/usr/keychars/pm8058-keypad.kcm.bin \
 vendor/semc/iyokan/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
@@ -66,6 +69,7 @@ PRODUCT_COPY_FILES += \
 vendor/semc/iyokan/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/semc/iyokan/proprietary/libcamera.so:obj/lib/libcamera.so \
 vendor/semc/iyokan/proprietary/libcamera.so:system/lib/libcamera.so \
+vendor/semc/iyokan/proprietary/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
 vendor/semc/iyokan/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
 vendor/semc/iyokan/proprietary/libmmipl.so:system/lib/libmmipl.so \
 vendor/semc/iyokan/proprietary/libcald_client.so:system/lib/libcald_client.so \
@@ -224,4 +228,18 @@ vendor/semc/iyokan/proprietary/qwerty-se-fi.xml:system/usr/keyboard-config/layou
 vendor/semc/iyokan/proprietary/qwertz.xml:system/usr/keyboard-config/layouts/qwertz.xml \
 vendor/semc/iyokan/proprietary/thai.xml:system/usr/keyboard-config/layouts/thai.xml 
 
+#HDMI
+PRODUCT_COPY_FILES += \
+vendor/semc/iyokan/proprietary/hdmid:system/bin/hdmid \
+vendor/semc/iyokan/proprietary/libhdmidisplay.so:system/lib/libhdmidisplay.so \
+vendor/semc/iyokan/proprietary/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
+vendor/semc/iyokan/proprietary/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
+vendor/semc/iyokan/proprietary/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml
+
+#ANT*
+PRODUCT_COPY_FILES += \
+vendor/semc/iyokan/proprietary/AntHalService.apk:system/app/AntHalService.apk \
+vendor/semc/iyokan/proprietary/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+vendor/semc/iyokan/proprietary/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+vendor/semc/iyokan/proprietary/libanthal.so:system/lib/libanthal.so
 

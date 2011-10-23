@@ -19,6 +19,7 @@
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
+vendor/semc/urushi/proprietary/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
 vendor/semc/urushi/proprietary/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
 vendor/semc/urushi/proprietary/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
 vendor/semc/urushi/proprietary/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
@@ -27,7 +28,9 @@ vendor/semc/urushi/proprietary/clearpad.kl:system/usr/keylayout/clearpad.kl \
 vendor/semc/urushi/proprietary/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
 vendor/semc/urushi/proprietary/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
 vendor/semc/urushi/proprietary/qwerty.kl:system/usr/keylayout/qwerty.kl \
-vendor/semc/urushi/proprietary/simple_remote.kl:system/usr/keylayout/simple_remote.kl
+vendor/semc/urushi/proprietary/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+vendor/semc/urushi/proprietary/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
+vendor/semc/urushi/proprietary/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl
 
 
 ## RIL related stuff 
@@ -68,16 +71,12 @@ vendor/semc/urushi/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
 vendor/semc/urushi/proprietary/libcamera.so:obj/lib/libcamera.so \
 vendor/semc/urushi/proprietary/libcamera.so:system/lib/libcamera.so \
 vendor/semc/urushi/proprietary/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
-vendor/semc/urushi/proprietary/libopencore_common.so:system/lib/libopencore_common.so \
 vendor/semc/urushi/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
 vendor/semc/urushi/proprietary/libmmipl.so:system/lib/libmmipl.so \
-vendor/semc/urushi/proprietary/libcald_api.so:system/lib/libcald_api.so \
 vendor/semc/urushi/proprietary/libcald_client.so:system/lib/libcald_client.so \
 vendor/semc/urushi/proprietary/libcald_debugger.so:system/lib/libcald_debugger.so \
 vendor/semc/urushi/proprietary/libcald_hal.so:system/lib/libcald_hal.so \
 vendor/semc/urushi/proprietary/libcald_imageutil.so:system/lib/libcald_imageutil.so \
-vendor/semc/urushi/proprietary/libcald_omxcamera.so:system/lib/libcald_omxcamera.so \
-vendor/semc/urushi/proprietary/libcald_omxcamera_plugin.so:system/lib/libcald_omxcamera_plugin.so \
 vendor/semc/urushi/proprietary/libcald_pal.so:system/lib/libcald_pal.so \
 vendor/semc/urushi/proprietary/libcald_server.so:system/lib/libcald_server.so \
 vendor/semc/urushi/proprietary/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
@@ -88,8 +87,14 @@ vendor/semc/urushi/proprietary/libgemini.so:system/lib/libgemini.so \
 vendor/semc/urushi/proprietary/libcameralight.so:system/lib/libcameralight.so \
 vendor/semc/urushi/proprietary/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
 vendor/semc/urushi/proprietary/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
+vendor/semc/urushi/proprietary/AS3676_00_flash.dat:system/usr/semc/camera/default_flash.dat \
 vendor/semc/urushi/proprietary/AS3676_00_flash.dat:system/usr/semc/camera/AS3676_00_flash.dat \
 vendor/semc/urushi/proprietary/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
+vendor/semc/urushi/proprietary/LGI08BN0_DW9714.dat:system/usr/semc/camera/LGI08BN0_DW9714.dat \
+vendor/semc/urushi/proprietary/LGI08BN0_IMX105.dat:system/usr/semc/camera/LGI08BN0_IMX105.dat \
+vendor/semc/urushi/proprietary/LGI08BN1.dat:system/usr/semc/camera/LGI08BN1.dat \
+vendor/semc/urushi/proprietary/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
+vendor/semc/urushi/proprietary/LGI08BN1_IMX105.dat:system/usr/semc/camera/LGI08BN1_IMX105.dat \
 vendor/semc/urushi/proprietary/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
 vendor/semc/urushi/proprietary/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
 vendor/semc/urushi/proprietary/SOD08BN0_IMX073.dat:system/usr/semc/camera/SOD08BN0_IMX073.dat \
@@ -101,8 +106,7 @@ vendor/semc/urushi/proprietary/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08B
 
 ## FIRMWARE
 PRODUCT_COPY_FILES += \
-vendor/semc/urushi/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.bqfs \
-vendor/semc/urushi/proprietary/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0107_proj-hall_golden.dffs \
+vendor/semc/urushi/proprietary/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
 vendor/semc/urushi/proprietary/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
 vendor/semc/urushi/proprietary/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
 vendor/semc/urushi/proprietary/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \

@@ -1,0 +1,3 @@
+# Generic usb mouse key-layout
+key 273   BACK        WAKE_DROPPED
+key 274   MENU        WAKE_DROPPED

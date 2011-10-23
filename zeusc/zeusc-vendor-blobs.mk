@@ -59,6 +59,8 @@ vendor/semc/zeusc/proprietary/libril-qc-1.so:system/lib/libril-qc-1.so \
 vendor/semc/zeusc/proprietary/libwms.so:system/lib/libwms.so \
 vendor/semc/zeusc/proprietary/libwmsts.so:system/lib/libwmsts.so \
 
+
+
 ## Camera proprietaries
 PRODUCT_COPY_FILES += \
 vendor/semc/zeusc/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
@@ -118,10 +120,12 @@ vendor/semc/zeusc/proprietary/com.sony.android.playstationcertified.xml:system/e
 
 PRODUCT_COPY_FILES += \
 vendor/semc/zeusc/proprietary/xperiaplaycertified.jar:system/framework/xperiaplaycertified.jar \
-vendor/semc/zeusc/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar 
+vendor/semc/zeusc/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar \
+vendor/semc/zeusc/proprietary/com.sonyericsson.androidapp.storefront.apk:system/app/com.sonyericsson.androidapp.storefront.apk
 
 PRODUCT_COPY_FILES += \
 vendor/semc/zeusc/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk
+vendor/semc/zeusc/proprietary/librsasigner.so:system/lib/librsasigner.so
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \
