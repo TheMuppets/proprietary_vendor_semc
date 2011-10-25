@@ -124,7 +124,7 @@ vendor/semc/zeusc/proprietary/playstationcertified.jar:system/framework/playstat
 vendor/semc/zeusc/proprietary/com.sonyericsson.androidapp.storefront.apk:system/app/com.sonyericsson.androidapp.storefront.apk
 
 PRODUCT_COPY_FILES += \
-vendor/semc/zeusc/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk
+vendor/semc/zeusc/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk \
 vendor/semc/zeusc/proprietary/librsasigner.so:system/lib/librsasigner.so
 
 ## Adreno 200 files

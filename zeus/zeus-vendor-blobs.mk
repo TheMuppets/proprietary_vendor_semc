@@ -122,7 +122,9 @@ vendor/semc/zeus/proprietary/com.playstation.playstationcertified.jar:system/fra
 vendor/semc/zeus/proprietary/xperiaplaycertified.jar:system/framework/xperiaplaycertified.jar \
 vendor/semc/zeus/proprietary/playstationcertified.jar:system/framework/playstationcertified.jar \
 vendor/semc/zeus/proprietary/com.sonyericsson.androidapp.storefront.apk:system/app/com.sonyericsson.androidapp.storefront.apk \
-vendor/semc/zeus/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk
+vendor/semc/zeus/proprietary/preinstalledservice.apk:system/app/preinstalledservice.apk \
+vendor/semc/zeus/proprietary/librsasigner.so:system/lib/librsasigner.so
+
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \
