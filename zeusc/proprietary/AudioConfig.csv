@@ -1,4 +1,0 @@
-#handset tuning mode,,
-switch_device,handset_rx,handset_vzw_rx
-switch_device,handset_tx,handset_vzw_tx
-switch_device,handset_dual_mic_endfire_tx,handset_dual_mic_endfire_vzw_tx

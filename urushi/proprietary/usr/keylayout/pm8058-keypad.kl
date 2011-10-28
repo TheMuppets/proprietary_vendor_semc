@@ -1,0 +1,10 @@
+# this corresponds to kernel/arch/arm/mach-msm/keypad-urushi.c
+#
+# defines for values are in frameworks/base/include/ui/KeycodeLabels.h
+
+key 115   VOLUME_UP         WAKE
+key 114   VOLUME_DOWN       WAKE
+
+# KEY_HOME
+key 102   HOME              WAKE_DROPPED
+
