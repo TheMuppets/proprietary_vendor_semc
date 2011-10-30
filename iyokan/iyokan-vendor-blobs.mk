@@ -94,8 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
     vendor/semc/iyokan/proprietary/usr/semc/camera/LGI08BN1_IMX105.dat:system/usr/semc/camera/LGI08BN1_IMX105.dat \
-    vendor/semc/iyokan/proprietary/etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.bqfs \
-    vendor/semc/iyokan/proprietary/etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.dffs:system/etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.dffs \
+    vendor/semc/iyokan/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
     vendor/semc/iyokan/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
     vendor/semc/iyokan/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
     vendor/semc/iyokan/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
