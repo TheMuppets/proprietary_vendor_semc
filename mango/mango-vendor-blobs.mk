@@ -22,11 +22,13 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/mango/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    vendor/semc/mango/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/mango/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/mango/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     vendor/semc/mango/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/semc/mango/proprietary/usr/keylayout/cyttsp_key.kl:system/usr/keylayout/cyttsp_key.kl \
     vendor/semc/mango/proprietary/usr/keychars/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
+    vendor/semc/mango/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/mango/proprietary/usr/keylayout/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
     vendor/semc/mango/proprietary/usr/keylayout/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
     vendor/semc/mango/proprietary/lib/libril.so:system/lib/libril.so \
@@ -84,8 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/usr/semc/camera/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
     vendor/semc/mango/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
     vendor/semc/mango/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
-    vendor/semc/mango/proprietary/etc/firmware/bq27520_fw-0501_filever-0041_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0501_filever-0041_proj-mang_golden.bqfs \
-    vendor/semc/mango/proprietary/etc/firmware/bq27520_fw-0501_filever-0041_proj-mang_golden.dffs:system/etc/firmware/bq27520_fw-0501_filever-0041_proj-mang_golden.dffs \
+    vendor/semc/mango/proprietary/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0046_proj-mang_golden.bqfs \
     vendor/semc/mango/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
     vendor/semc/mango/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
     vendor/semc/mango/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \

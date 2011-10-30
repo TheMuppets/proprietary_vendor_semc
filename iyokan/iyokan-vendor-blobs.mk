@@ -21,11 +21,13 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
+    vendor/semc/iyokan/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/semc/iyokan/proprietary/usr/keychars/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
+    vendor/semc/iyokan/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/iyokan/proprietary/usr/keylayout/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
     vendor/semc/iyokan/proprietary/bin/port-bridge:system/bin/port-bridge \
