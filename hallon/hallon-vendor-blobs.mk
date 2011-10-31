@@ -80,10 +80,10 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/usr/semc/camera/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN0_DW9714.dat:system/usr/semc/camera/LGI08BN0_DW9714.dat \
-    vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN0_IMX073.dat:system/usr/semc/camera/LGI08BN0_IMX073.dat \
+    vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN0_IMX105.dat:system/usr/semc/camera/LGI08BN0_IMX105.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN1.dat:system/usr/semc/camera/LGI08BN1.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
-    vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN1_IMX073.dat:system/usr/semc/camera/LGI08BN1_IMX073.dat \
+    vendor/semc/hallon/proprietary/usr/semc/camera/LGI08BN1_IMX105.dat:system/usr/semc/camera/LGI08BN1_IMX105.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/LM3560_01_flash.dat:system/usr/semc/camera/LM3560_01_flash.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/hallon/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
-    vendor/semc/hallon/proprietary/etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0506_filever-0111_proj-hall_golden.bqfs \
+    vendor/semc/hallon/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
     vendor/semc/hallon/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
     vendor/semc/hallon/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
     vendor/semc/hallon/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
@@ -113,11 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/hallon/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/hallon/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-    vendor/semc/hallon/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/semc/hallon/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-    vendor/semc/hallon/proprietary/etc/wifi/softap/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
     vendor/semc/hallon/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/semc/hallon/proprietary/etc/wifi/softap/softap_firmware.bin:system/etc/wifi/softap/softap_firmware.bin \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \

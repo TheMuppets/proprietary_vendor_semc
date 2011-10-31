@@ -111,11 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/anzu/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/anzu/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-    vendor/semc/anzu/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-    vendor/semc/anzu/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/semc/anzu/proprietary/etc/wifi/softap/hostapd.conf:system/etc/wifi/softap/hostapd.conf \
     vendor/semc/anzu/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/semc/anzu/proprietary/etc/wifi/softap/softap_firmware.bin:system/etc/wifi/softap/softap_firmware.bin \
     vendor/semc/anzu/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/anzu/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/anzu/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -124,6 +120,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/anzu/proprietary/etc/als_curve.conf:system/etc/als_curve.conf \
     vendor/semc/anzu/proprietary/etc/vold.fstab:system/etc/vold.fstab \
+    vendor/semc/anzu/proprietary/etc/sensors.conf:system/etc/sensors.conf \
+    vendor/semc/anzu/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/anzu/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/anzu/proprietary/bin/hdmid:system/bin/hdmid \
     vendor/semc/anzu/proprietary/bin/akmd8975:system/bin/akmd8975 \
