@@ -73,6 +73,10 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mimmi/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/semc/mimmi/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/mimmi/proprietary/bin/hciattach:system/bin/hciattach \
+    vendor/semc/mimmi/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+    vendor/semc/mimmi/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
+    vendor/semc/mimmi/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
+    vendor/semc/mimmi/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
     vendor/semc/mimmi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/mimmi/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/mimmi/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \

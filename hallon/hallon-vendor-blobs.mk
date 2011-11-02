@@ -113,7 +113,9 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/hallon/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/hallon/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+    vendor/semc/hallon/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
     vendor/semc/hallon/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
+    vendor/semc/hallon/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \

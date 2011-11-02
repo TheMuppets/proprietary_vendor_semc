@@ -107,7 +107,9 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/satsuma/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/satsuma/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+    vendor/semc/satsuma/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
     vendor/semc/satsuma/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
+    vendor/semc/satsuma/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/satsuma/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/satsuma/proprietary/etc/sensors.conf:system/etc/sensors.conf \

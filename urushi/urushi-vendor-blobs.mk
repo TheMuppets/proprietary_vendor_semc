@@ -114,7 +114,9 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/urushi/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/urushi/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
+    vendor/semc/urushi/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
     vendor/semc/urushi/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
+    vendor/semc/urushi/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
     vendor/semc/urushi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
