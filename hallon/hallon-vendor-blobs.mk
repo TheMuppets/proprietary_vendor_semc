@@ -59,6 +59,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/hallon/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/hallon/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/semc/hallon/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/hallon/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/hallon/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/hallon/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

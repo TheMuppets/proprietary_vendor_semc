@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/mango/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/mango/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/semc/mango/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/mango/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/mango/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/mango/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

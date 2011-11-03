@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/urushi/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/urushi/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/semc/urushi/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/urushi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/urushi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/urushi/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

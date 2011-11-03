@@ -64,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/iyokan/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/iyokan/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/iyokan/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/iyokan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/iyokan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/iyokan/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
