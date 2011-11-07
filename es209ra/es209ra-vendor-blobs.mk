@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/es209ra/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/es209ra/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/semc/es209ra/proprietary/bin/netd:system/bin/netd \
     vendor/semc/es209ra/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/es209ra/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/es209ra/proprietary/lib/libdiag.so:system/lib/libdiag.so \
