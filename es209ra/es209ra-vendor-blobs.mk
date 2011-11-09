@@ -54,6 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/lib/modules/data.patch.hw2_0.bin:system/lib/modules/data.patch.hw2_0.bin \
     vendor/semc/es209ra/proprietary/bin/wlan_mac:system/bin/wlan_mac \
     vendor/semc/es209ra/proprietary/bin/wlan_tool:system/bin/wlan_tool \
+    vendor/semc/es209ra/proprietary/bin/hostapd:system/bin/hostapd \
+    vendor/semc/es209ra/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/es209ra/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/semc/es209ra/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/es209ra/proprietary/lib/libgsl.so:system/lib/libgsl.so \
