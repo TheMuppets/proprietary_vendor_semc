@@ -63,14 +63,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/es209ra/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/es209ra/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/es209ra/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/es209ra/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/es209ra/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/es209ra/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/es209ra/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/semc/es209ra/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/es209ra/proprietary/lib/hw/copybit.qsd8k.so:system/lib/hw/copybit.qsd8k.so \
-    vendor/semc/es209ra/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    vendor/semc/es209ra/proprietary/lib/hw/copybit.es209ra.so:system/lib/hw/copybit.es209ra.so \
+    vendor/semc/es209ra/proprietary/lib/hw/sensors.es209ra.so:system/lib/hw/sensors.es209ra.so \
     vendor/semc/es209ra/proprietary/lib/hw/gralloc.es209ra.so:system/lib/hw/gralloc.es209ra.so \
     vendor/semc/es209ra/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/semc/es209ra/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
