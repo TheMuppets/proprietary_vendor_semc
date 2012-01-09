@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/mango/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/mango/proprietary/bin/nvimport:system/bin/nvimport \
-    vendor/semc/mango/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/mango/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/mango/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
     vendor/semc/mango/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \

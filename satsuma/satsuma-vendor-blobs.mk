@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/satsuma/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/satsuma/proprietary/bin/nvimport:system/bin/nvimport \
-    vendor/semc/satsuma/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/satsuma/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/satsuma/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
     vendor/semc/satsuma/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
