@@ -16,10 +16,10 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/urushi/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/semc/urushi/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/semc/urushi/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/semc/urushi/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/urushi/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/urushi/proprietary/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/urushi/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/urushi/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/urushi/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/urushi/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/urushi/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/urushi/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -64,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/urushi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/urushi/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/urushi/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/semc/urushi/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/urushi/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/urushi/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \
@@ -94,12 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
     vendor/semc/urushi/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/urushi/proprietary/etc/firmware/TIInit_7.5.20.bts:system/etc/firmware/TIInit_7.5.20.bts \
     vendor/semc/urushi/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
     vendor/semc/urushi/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
@@ -111,13 +103,12 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/semc/urushi/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/urushi/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/urushi/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/urushi/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/urushi/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-    vendor/semc/urushi/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-    vendor/semc/urushi/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/semc/urushi/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
+    vendor/semc/urushi/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/semc/urushi/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/urushi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/semc/urushi/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/urushi/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
@@ -133,8 +124,4 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
-    vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img \
-    vendor/semc/urushi/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/urushi/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    vendor/semc/urushi/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/urushi/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img

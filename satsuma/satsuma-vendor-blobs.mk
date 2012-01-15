@@ -16,10 +16,10 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/satsuma/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/semc/satsuma/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
     vendor/semc/satsuma/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/satsuma/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/satsuma/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/satsuma/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/satsuma/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/satsuma/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/satsuma/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/satsuma/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -103,12 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/semc/satsuma/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/satsuma/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/satsuma/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/satsuma/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/satsuma/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-    vendor/semc/satsuma/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-    vendor/semc/satsuma/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/semc/satsuma/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/satsuma/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/satsuma/proprietary/etc/sensors.conf:system/etc/sensors.conf \
@@ -117,13 +111,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/satsuma/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/satsuma/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/satsuma/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/semc/satsuma/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/satsuma/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/semc/satsuma/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/satsuma/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/satsuma/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/satsuma/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/satsuma/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/satsuma/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/satsuma/proprietary/etc/firmware/touch_satsuma_hitachi.hex:system/etc/firmware/touch_satsuma_hitachi.hex \
-    vendor/semc/satsuma/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/satsuma/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    vendor/semc/satsuma/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/satsuma/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/satsuma/proprietary/etc/firmware/touch_satsuma_hitachi.hex:system/etc/firmware/touch_satsuma_hitachi.hex
