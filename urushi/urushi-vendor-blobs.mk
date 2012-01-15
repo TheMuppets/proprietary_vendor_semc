@@ -16,12 +16,10 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/urushi/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-    vendor/semc/urushi/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
-    vendor/semc/urushi/proprietary/lib/liba2dp.so:obj/lib/liba2dp.so \
     vendor/semc/urushi/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/semc/urushi/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
     vendor/semc/urushi/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/urushi/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/urushi/proprietary/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
@@ -52,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/urushi/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/urushi/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/urushi/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/urushi/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/urushi/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/urushi/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -62,13 +59,39 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/urushi/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/urushi/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/semc/urushi/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+    vendor/semc/urushi/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/semc/urushi/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/semc/urushi/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/semc/urushi/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+    vendor/semc/urushi/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/semc/urushi/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \
+    vendor/semc/urushi/proprietary/lib/libcald_hal.so:system/lib/libcald_hal.so \
+    vendor/semc/urushi/proprietary/lib/libcald_imageutil.so:system/lib/libcald_imageutil.so \
+    vendor/semc/urushi/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
+    vendor/semc/urushi/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
+    vendor/semc/urushi/proprietary/lib/libface.so:system/lib/libface.so \
+    vendor/semc/urushi/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/semc/urushi/proprietary/lib/libcameraextensionclient.so:system/lib/libcameraextensionclient.so \
+    vendor/semc/urushi/proprietary/lib/libcameraextensionjni.so:system/lib/libcameraextensionjni.so \
+    vendor/semc/urushi/proprietary/lib/libcameraextensionservice.so:system/lib/libcameraextensionservice.so \
+    vendor/semc/urushi/proprietary/lib/libcameralight.so:system/lib/libcameralight.so \
+    vendor/semc/urushi/proprietary/usr/semc/camera/APT00YP0.dat:system/usr/semc/camera/APT00YP0.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/APT00YP0_MT9V144.dat:system/usr/semc/camera/APT00YP0_MT9V144.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/AS3676_00_flash.dat:system/usr/semc/camera/AS3676_00_flash.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/LGI08BN0.dat:system/usr/semc/camera/LGI08BN0.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/LGI08BN0_DW9714.dat:system/usr/semc/camera/LGI08BN0_DW9714.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/LGI08BN0_IMX105.dat:system/usr/semc/camera/LGI08BN0_IMX105.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/LGI08BN1.dat:system/usr/semc/camera/LGI08BN1.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/LGI08BN1_IMX105.dat:system/usr/semc/camera/LGI08BN1_IMX105.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN0_IMX073.dat:system/usr/semc/camera/SOD08BN0_IMX073.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
+    vendor/semc/urushi/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
     vendor/semc/urushi/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_tx_init_1273.1.bts:system/etc/firmware/fm_tx_init_1273.1.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fm_tx_init_1273.2.bts:system/etc/firmware/fm_tx_init_1273.2.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fmc_init_1273.1.bts:system/etc/firmware/fmc_init_1273.1.bts \
-    vendor/semc/urushi/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/urushi/proprietary/etc/firmware/TIInit_7.5.20.bts:system/etc/firmware/TIInit_7.5.20.bts \
     vendor/semc/urushi/proprietary/etc/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
     vendor/semc/urushi/proprietary/etc/firmware/vidc_720p_command_control.fw:system/etc/firmware/vidc_720p_command_control.fw \
@@ -80,22 +103,16 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/semc/urushi/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/urushi/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/urushi/proprietary/bin/nvimport:system/bin/nvimport \
-    vendor/semc/urushi/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/urushi/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/urushi/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-    vendor/semc/urushi/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-    vendor/semc/urushi/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/semc/urushi/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
+    vendor/semc/urushi/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/semc/urushi/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/urushi/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/semc/urushi/proprietary/lib/hw/gralloc.semc.so:system/lib/hw/gralloc.semc.so \
-    vendor/semc/urushi/proprietary/lib/hw/overlay.semc.so:system/lib/hw/overlay.semc.so \
+    vendor/semc/urushi/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/urushi/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/urushi/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
-    vendor/semc/urushi/proprietary/lib/libaudio.so:system/lib/libaudio.so \
     vendor/semc/urushi/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/urushi/proprietary/etc/als_curve.conf:system/etc/als_curve.conf \
     vendor/semc/urushi/proprietary/etc/vold.fstab:system/etc/vold.fstab \

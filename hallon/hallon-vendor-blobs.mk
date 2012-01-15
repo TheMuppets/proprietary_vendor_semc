@@ -16,10 +16,10 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/hallon/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/semc/hallon/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
     vendor/semc/hallon/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/hallon/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/hallon/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/hallon/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/hallon/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/hallon/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/hallon/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/hallon/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/hallon/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -110,36 +109,24 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/semc/hallon/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/hallon/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/hallon/proprietary/bin/nvimport:system/bin/nvimport \
-    vendor/semc/hallon/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/hallon/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/hallon/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
-    vendor/semc/hallon/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
-    vendor/semc/hallon/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \
-    vendor/semc/hallon/proprietary/etc/wifi/softap/tiwlan_firmware_ap.bin:system/etc/wifi/softap/tiwlan_firmware_ap.bin \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/hallon/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/hallon/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/hallon/proprietary/bin/hdmid:system/bin/hdmid \
     vendor/semc/hallon/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/hallon/proprietary/bin/touchd:system/bin/touchd \
     vendor/semc/hallon/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/hallon/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/hallon/proprietary/etc/firmware/touch_hallon_hitachi.hex:system/etc/firmware/touch_hallon_hitachi.hex \
-    vendor/semc/hallon/proprietary/etc/firmware/touch_hallon_sony.hex:system/etc/firmware/touch_hallon_sony.hex \
+    vendor/semc/hallon/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
+    vendor/semc/hallon/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/hallon/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/semc/hallon/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/hallon/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/hallon/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/hallon/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/hallon/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/hallon/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/hallon/proprietary/bin/hdmid:system/bin/hdmid \
-    vendor/semc/hallon/proprietary/lib/libhdmidisplay.so:system/lib/libhdmidisplay.so \
-    vendor/semc/hallon/proprietary/app/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
-    vendor/semc/hallon/proprietary/framework/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
-    vendor/semc/hallon/proprietary/etc/permissions/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml \
-    vendor/semc/hallon/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
-    vendor/semc/hallon/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
-    vendor/semc/hallon/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/hallon/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/hallon/proprietary/etc/firmware/touch_hallon_hitachi.hex:system/etc/firmware/touch_hallon_hitachi.hex \
+    vendor/semc/hallon/proprietary/etc/firmware/touch_hallon_sony.hex:system/etc/firmware/touch_hallon_sony.hex
