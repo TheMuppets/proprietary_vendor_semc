@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/etc/firmware/fmc_init_1273.2.bts:system/etc/firmware/fmc_init_1273.2.bts \
     vendor/semc/robyn/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
     vendor/semc/robyn/proprietary/bin/nvimport:system/bin/nvimport \
-    vendor/semc/robyn/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/robyn/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
     vendor/semc/robyn/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
     vendor/semc/robyn/proprietary/etc/wifi/softap/tiwlan_ap.ini:system/etc/wifi/softap/tiwlan_ap.ini \

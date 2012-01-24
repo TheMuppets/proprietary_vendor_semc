@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/iyokan/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/iyokan/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/iyokan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/iyokan/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/iyokan/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/iyokan/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \

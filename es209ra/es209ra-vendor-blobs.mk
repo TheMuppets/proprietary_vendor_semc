@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/semc/es209ra/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/es209ra/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/semc/es209ra/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/es209ra/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/es209ra/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/es209ra/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -68,8 +67,5 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/es209ra/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/semc/es209ra/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/es209ra/proprietary/lib/hw/copybit.es209ra.so:system/lib/hw/copybit.es209ra.so \
     vendor/semc/es209ra/proprietary/lib/hw/sensors.es209ra.so:system/lib/hw/sensors.es209ra.so \
-    vendor/semc/es209ra/proprietary/lib/hw/gralloc.es209ra.so:system/lib/hw/gralloc.es209ra.so \
-    vendor/semc/es209ra/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
-    vendor/semc/es209ra/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
+    vendor/semc/es209ra/proprietary/lib/hw/gralloc.es209ra.so:system/lib/hw/gralloc.es209ra.so

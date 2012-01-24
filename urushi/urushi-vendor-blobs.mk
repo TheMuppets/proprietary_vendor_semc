@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/urushi/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/urushi/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/urushi/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/urushi/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/urushi/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/urushi/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \

@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/zeusc/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/zeusc/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/zeusc/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/zeusc/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/zeusc/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/zeusc/proprietary/lib/libwms.so:system/lib/libwms.so \
