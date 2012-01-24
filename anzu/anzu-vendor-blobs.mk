@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/anzu/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
