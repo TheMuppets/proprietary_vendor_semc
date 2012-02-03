@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/hallon/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/hallon/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/hallon/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/semc/hallon/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/hallon/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/hallon/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \

@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/coconut/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/coconut/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/coconut/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/semc/coconut/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/semc/coconut/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
     vendor/semc/coconut/proprietary/lib/libcald_debugger.so:system/lib/libcald_debugger.so \

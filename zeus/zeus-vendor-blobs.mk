@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/zeus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/zeus/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/zeus/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/semc/zeus/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
     vendor/semc/zeus/proprietary/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
     vendor/semc/zeus/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \

@@ -16,8 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/semc/anzu/proprietary/lib/libcamera.so:obj/lib/libcamera.so
+    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
@@ -59,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/anzu/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/anzu/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/anzu/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/semc/anzu/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/anzu/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/anzu/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/anzu/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
