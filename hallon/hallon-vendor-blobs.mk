@@ -20,16 +20,11 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
-    vendor/semc/hallon/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/hallon/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/hallon/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/hallon/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/hallon/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    vendor/semc/hallon/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/hallon/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/hallon/proprietary/usr/keychars/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
-    vendor/semc/hallon/proprietary/usr/keylayout/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
-    vendor/semc/hallon/proprietary/usr/keylayout/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
     vendor/semc/hallon/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/hallon/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/hallon/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -59,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/hallon/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/hallon/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+    vendor/semc/hallon/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/hallon/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/hallon/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/hallon/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

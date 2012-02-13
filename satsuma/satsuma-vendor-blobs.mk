@@ -20,16 +20,11 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
-    vendor/semc/satsuma/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/satsuma/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    vendor/semc/satsuma/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/satsuma/proprietary/usr/keychars/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
-    vendor/semc/satsuma/proprietary/usr/keylayout/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
-    vendor/semc/satsuma/proprietary/usr/keylayout/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
     vendor/semc/satsuma/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/satsuma/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/satsuma/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -58,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/satsuma/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/satsuma/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/semc/satsuma/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/satsuma/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/satsuma/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/satsuma/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

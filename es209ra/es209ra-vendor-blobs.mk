@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES := \
     vendor/semc/es209ra/proprietary/usr/idc/es209ra_touch.idc:system/usr/idc/es209ra_touch.idc \
     vendor/semc/es209ra/proprietary/usr/keylayout/es209ra_keypad.kl:system/usr/keylayout/es209ra_keypad.kl \
     vendor/semc/es209ra/proprietary/usr/keylayout/es209ra_handset.kl:system/usr/keylayout/es209ra_handset.kl \
-    vendor/semc/es209ra/proprietary/usr/keychars/es209ra_keypad.kcm.bin:system/usr/keychars/es209ra_keypad.kcm.bin \
     vendor/semc/es209ra/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/es209ra/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/es209ra/proprietary/bin/qmuxd:system/bin/qmuxd \

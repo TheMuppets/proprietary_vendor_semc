@@ -1,3 +1,4 @@
-# Basic idc property file for the products
+# touchpad
 
 touch.deviceType = touchPad
+touch.orientationAware = 1

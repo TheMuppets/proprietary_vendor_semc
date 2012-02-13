@@ -16,21 +16,28 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/zeus/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/semc/zeus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/zeus/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
     vendor/semc/zeus/proprietary/usr/idc/synaptics_touchpad.idc:system/usr/idc/synaptics_touchpad.idc \
-    vendor/semc/zeus/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_028e.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_046d_Product_c294.kl:system/usr/keylayout/Vendor_046d_Product_c294.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_046d_Product_c299.kl:system/usr/keylayout/Vendor_046d_Product_c299.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
+    vendor/semc/zeus/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/keypad-game-zeus.kl:system/usr/keylayout/keypad-game-zeus.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/keypad-phone-zeus.kl:system/usr/keylayout/keypad-phone-zeus.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/keypad-zeus.kl:system/usr/keylayout/keypad-zeus.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/zeus/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
-    vendor/semc/zeus/proprietary/usr/keychars/keypad-zeus.kcm.bin:system/usr/keychars/keypad-zeus.kcm.bin \
+    vendor/semc/zeus/proprietary/usr/keychars/keypad-zeus.kcm:system/usr/keychars/keypad-zeus.kcm \
     vendor/semc/zeus/proprietary/bin/lidswitchd:system/bin/lidswitchd \
     vendor/semc/zeus/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/zeus/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -61,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeus/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/zeus/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/zeus/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+    vendor/semc/zeus/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/zeus/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/zeus/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/zeus/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

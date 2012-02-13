@@ -20,17 +20,14 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
+    vendor/semc/mango/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+    vendor/semc/mango/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
     vendor/semc/mango/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/mango/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/semc/mango/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/mango/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/mango/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     vendor/semc/mango/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/semc/mango/proprietary/usr/keylayout/cyttsp_key.kl:system/usr/keylayout/cyttsp_key.kl \
-    vendor/semc/mango/proprietary/usr/keychars/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
-    vendor/semc/mango/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
-    vendor/semc/mango/proprietary/usr/keylayout/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
-    vendor/semc/mango/proprietary/usr/keylayout/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
     vendor/semc/mango/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/mango/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/mango/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -60,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/mango/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/mango/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+    vendor/semc/mango/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/mango/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/mango/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/mango/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \

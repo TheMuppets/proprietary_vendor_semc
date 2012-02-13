@@ -20,17 +20,12 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    vendor/semc/urushi/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
     vendor/semc/urushi/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/urushi/proprietary/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
     vendor/semc/urushi/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/urushi/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/urushi/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    vendor/semc/urushi/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/urushi/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/urushi/proprietary/usr/keychars/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
-    vendor/semc/urushi/proprietary/usr/keylayout/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
-    vendor/semc/urushi/proprietary/usr/keylayout/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
     vendor/semc/urushi/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/urushi/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/urushi/proprietary/bin/qmuxd:system/bin/qmuxd \

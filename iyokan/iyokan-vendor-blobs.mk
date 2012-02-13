@@ -20,16 +20,13 @@ PRODUCT_COPY_FILES := \
 
 PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
+    vendor/semc/iyokan/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+    vendor/semc/iyokan/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
     vendor/semc/iyokan/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/iyokan/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/iyokan/proprietary/usr/keychars/us104-keyboard.kcm.bin:system/usr/keychars/us104-keyboard.kcm.bin \
-    vendor/semc/iyokan/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
-    vendor/semc/iyokan/proprietary/usr/keylayout/us104-keyboard.kl:system/usr/keylayout/us104-keyboard.kl \
-    vendor/semc/iyokan/proprietary/usr/keylayout/usb_mouse.kl:system/usr/keylayout/usb_mouse.kl \
     vendor/semc/iyokan/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/iyokan/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/iyokan/proprietary/lib/libril.so:system/lib/libril.so \
@@ -59,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/iyokan/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/iyokan/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
+    vendor/semc/iyokan/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/iyokan/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/iyokan/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/iyokan/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
