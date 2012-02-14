@@ -45,11 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/es209ra/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/es209ra/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/semc/es209ra/proprietary/lib/libcamerasemc.so:system/lib/libcamerasemc.so \
-    vendor/semc/es209ra/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
     vendor/semc/es209ra/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/es209ra/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
-    vendor/semc/es209ra/proprietary/etc/firmware/camfirm.bin:system/etc/firmware/camfirm.bin \
     vendor/semc/es209ra/proprietary/lib/modules/athwlan.bin.z77:system/lib/modules/athwlan.bin.z77 \
     vendor/semc/es209ra/proprietary/lib/modules/data.patch.hw2_0.bin:system/lib/modules/data.patch.hw2_0.bin \
     vendor/semc/es209ra/proprietary/bin/wlan_mac:system/bin/wlan_mac \
@@ -68,4 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/semc/es209ra/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/semc/es209ra/proprietary/lib/hw/sensors.es209ra.so:system/lib/hw/sensors.es209ra.so \
-    vendor/semc/es209ra/proprietary/lib/hw/gralloc.es209ra.so:system/lib/hw/gralloc.es209ra.so
+    vendor/semc/es209ra/proprietary/lib/hw/gralloc.es209ra.so:system/lib/hw/gralloc.es209ra.so \
+    vendor/semc/es209ra/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+    vendor/semc/es209ra/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+    vendor/semc/es209ra/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so
