@@ -24,3 +24,9 @@ key 311   BUTTON_R1   WAKE_DROPPED
 # KEY_MEDIA (PSN_KEY in schematic)
 #   For now, leave undefined
 key 226   MENU        WAKE_DROPPED
+
+# KEY_MENU, KEY_HOME, KEY_BACK
+key 139   MENU
+key 102   HOME             WAKE_DROPPED
+key 158   BACK
+key 217   SEARCH
