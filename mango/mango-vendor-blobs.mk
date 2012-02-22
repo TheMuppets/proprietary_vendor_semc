@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
     vendor/semc/mango/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     vendor/semc/mango/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+    vendor/semc/mango/proprietary/usr/idc/pm8058-keypad.idc:system/usr/idc/pm8058-keypad.idc \
+    vendor/semc/mango/proprietary/usr/keychars/pm8058-keypad.kcm:system/usr/keychars/pm8058-keypad.kcm \
     vendor/semc/mango/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/mango/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/mango/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \

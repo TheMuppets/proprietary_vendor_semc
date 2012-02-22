@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
     vendor/semc/iyokan/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
     vendor/semc/iyokan/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
+    vendor/semc/iyokan/proprietary/usr/idc/pm8058-keypad.idc:system/usr/idc/pm8058-keypad.idc \
+    vendor/semc/iyokan/proprietary/usr/keychars/pm8058-keypad.kcm:system/usr/keychars/pm8058-keypad.kcm \
     vendor/semc/iyokan/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/iyokan/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
