@@ -102,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/coconut/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/coconut/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/coconut/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/coconut/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/coconut/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/coconut/proprietary/bin/chargemon:system/bin/chargemon \

@@ -66,5 +66,4 @@ PRODUCT_COPY_FILES := \
     vendor/semc/es209ra/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/es209ra/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/es209ra/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/semc/es209ra/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/es209ra/proprietary/lib/hw/sensors.es209ra.so:system/lib/hw/sensors.es209ra.so
+    vendor/semc/es209ra/proprietary/lib/libmiscta.so:system/lib/libmiscta.so
