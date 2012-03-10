@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \
+    vendor/semc/hallon/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/hallon/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/hallon/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/hallon/proprietary/bin/touchd:system/bin/touchd \

@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/haida/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/haida/proprietary/etc/sensors.conf:system/etc/sensors.conf \
+    vendor/semc/haida/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/haida/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/haida/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/haida/proprietary/bin/touchd:system/bin/touchd \
