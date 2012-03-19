@@ -1,5 +1,5 @@
-keyboard.layout=slider-mogami
-keyboard.characterMap=slider-mogami
+keyboard.layout=pm8058-keypad
+keyboard.characterMap=pm8058-keypad
 keyboard.orientationAware=1
 keyboard.builtIn=1
 
