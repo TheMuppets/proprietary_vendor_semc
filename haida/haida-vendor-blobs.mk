@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/haida/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/haida/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
-    vendor/semc/haida/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
+    vendor/semc/haida/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/semc/haida/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/haida/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/haida/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
@@ -108,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/haida/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/haida/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/haida/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/haida/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/haida/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/haida/proprietary/bin/touchd:system/bin/touchd \

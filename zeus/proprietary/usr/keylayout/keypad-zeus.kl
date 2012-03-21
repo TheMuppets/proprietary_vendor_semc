@@ -4,10 +4,10 @@
 # defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 
 # KEY_UP, KEY_LEFT, KEY_RIGHT, KEY_DOWN
-key 103   DPAD_UP           WAKE_DROPPED
-key 105   DPAD_LEFT         WAKE_DROPPED
-key 106   DPAD_RIGHT        WAKE_DROPPED
-key 108   DPAD_DOWN         WAKE_DROPPED
+key 103   DPAD_LEFT           WAKE_DROPPED
+key 105   DPAD_DOWN         WAKE_DROPPED
+key 106   DPAD_UP        WAKE_DROPPED
+key 108   DPAD_RIGHT         WAKE_DROPPED
 
 # BTN_Y, BTN_B, BTN_A, BTN_X,
 key 308   BUTTON_Y          WAKE_DROPPED
