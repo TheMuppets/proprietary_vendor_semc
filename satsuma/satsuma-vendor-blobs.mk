@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/satsuma/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/satsuma/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/satsuma/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/satsuma/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/satsuma/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/satsuma/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \

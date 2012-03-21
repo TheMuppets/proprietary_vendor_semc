@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/semc/es209ra/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/es209ra/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/semc/es209ra/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/es209ra/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/es209ra/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/es209ra/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \

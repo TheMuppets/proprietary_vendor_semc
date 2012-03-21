@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/smultron/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/smultron/proprietary/lib/libuim.so:system/lib/libuim.so \
-    vendor/semc/smultron/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/smultron/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/smultron/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/smultron/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
