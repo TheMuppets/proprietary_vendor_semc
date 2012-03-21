@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/satsuma/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/satsuma/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/satsuma/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/satsuma/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/satsuma/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/satsuma/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -111,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/satsuma/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/satsuma/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/satsuma/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/satsuma/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/satsuma/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/satsuma/proprietary/bin/chargemon:system/bin/chargemon \

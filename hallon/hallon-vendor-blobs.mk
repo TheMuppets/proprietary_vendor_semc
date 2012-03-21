@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/hallon/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/hallon/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/hallon/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/hallon/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/hallon/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/hallon/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -118,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/hallon/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/hallon/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/hallon/proprietary/bin/hdmid:system/bin/hdmid \
     vendor/semc/hallon/proprietary/bin/akmd8975:system/bin/akmd8975 \

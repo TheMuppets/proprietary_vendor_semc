@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/iyokan/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/iyokan/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/iyokan/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/iyokan/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/iyokan/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/iyokan/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -123,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/iyokan/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/iyokan/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/iyokan/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/iyokan/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/iyokan/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/iyokan/proprietary/bin/chargemon:system/bin/chargemon \

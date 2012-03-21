@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/mango/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/mango/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/mango/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/mango/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/mango/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/mango/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -113,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/mango/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/mango/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/mango/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/mango/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/mango/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/mango/proprietary/bin/chargemon:system/bin/chargemon \

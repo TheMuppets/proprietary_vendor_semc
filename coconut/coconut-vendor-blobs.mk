@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/coconut/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/coconut/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/coconut/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/coconut/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/coconut/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/coconut/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -113,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/coconut/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/coconut/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/coconut/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/coconut/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/coconut/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/coconut/proprietary/bin/chargemon:system/bin/chargemon \

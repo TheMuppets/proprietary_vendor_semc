@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/anzu/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/anzu/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/anzu/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/anzu/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/anzu/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/anzu/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -107,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/anzu/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/anzu/proprietary/bin/nvimport:system/bin/nvimport \
+    vendor/semc/anzu/proprietary/bin/hciattach:system/bin/hciattach \
     vendor/semc/anzu/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/anzu/proprietary/etc/wifi/tiwlan.ini:system/etc/wifi/tiwlan.ini \
     vendor/semc/anzu/proprietary/etc/wifi/tiwlan_firmware.bin:system/etc/wifi/tiwlan_firmware.bin \
@@ -121,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/als_curve.conf:system/etc/als_curve.conf \
     vendor/semc/anzu/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/anzu/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/anzu/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/anzu/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/anzu/proprietary/bin/hdmid:system/bin/hdmid \
     vendor/semc/anzu/proprietary/bin/akmd8975:system/bin/akmd8975 \
@@ -139,5 +140,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/permissions/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml \
     vendor/semc/anzu/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
     vendor/semc/anzu/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/anzu/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
     vendor/semc/anzu/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+    vendor/semc/anzu/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar \
     vendor/semc/anzu/proprietary/lib/libanthal.so:system/lib/libanthal.so

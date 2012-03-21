@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/semc/smultron/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/semc/smultron/proprietary/lib/libuim.so:system/lib/libuim.so \
+    vendor/semc/smultron/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/semc/smultron/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
     vendor/semc/smultron/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/semc/smultron/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
@@ -111,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/smultron/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/smultron/proprietary/etc/sensors.conf:system/etc/sensors.conf \
-    vendor/semc/smultron/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/smultron/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/smultron/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/smultron/proprietary/bin/chargemon:system/bin/chargemon \
