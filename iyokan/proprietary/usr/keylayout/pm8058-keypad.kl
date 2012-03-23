@@ -1,11 +1,11 @@
-# this corresponds to kernel/arch/arm/mach-msm/keypad-iyokan.c
+# this corresponds to kernel/arch/arm/mach-msm/keypad-mango.c
 #
 # defines for values are in frameworks/base/include/ui/KeycodeLabels.h
 
 key 115   VOLUME_UP         WAKE
 key 114   VOLUME_DOWN       WAKE
 
-# KEY_MENU, KEY_HOME, KEY_BACK
+# KEY_HOME
 key 139   MENU
 key 102   HOME              WAKE_DROPPED
 key 158   BACK
@@ -60,5 +60,5 @@ key 42    SHIFT_LEFT        WAKE_DROPPED
 key 26    AT                WAKE_DROPPED
 key 27    GRAVE             WAKE_DROPPED
 
-key 127   PICTSYMBOLS       WAKE_DROPPED
-key 368   SWITCH_CHARSET    WAKE_DROPPED
+key 127   META_LEFT         WAKE_DROPPED
+key 368   CAPS_LOCK         WAKE_DROPPED
