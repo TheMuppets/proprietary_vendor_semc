@@ -57,8 +57,6 @@ PRODUCT_COPY_FILES := \
     vendor/semc/es209ra/proprietary/bin/wlan_mac:system/bin/wlan_mac \
     vendor/semc/es209ra/proprietary/bin/wlan_tool:system/bin/wlan_tool \
     vendor/semc/es209ra/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/semc/es209ra/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/semc/es209ra/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/es209ra/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/es209ra/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/semc/es209ra/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
