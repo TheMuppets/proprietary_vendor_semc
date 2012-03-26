@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/haida/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/semc/haida/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
-    vendor/semc/haida/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/semc/haida/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/haida/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/haida/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/semc/haida/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
@@ -79,13 +79,20 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/usr/semc/camera/LGI08BN1.dat:system/usr/semc/camera/LGI08BN1.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/LGI08BN1_DW9714.dat:system/usr/semc/camera/LGI08BN1_DW9714.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/LGI08BN1_IMX105.dat:system/usr/semc/camera/LGI08BN1_IMX105.dat \
+    vendor/semc/haida/proprietary/usr/semc/camera/KMO05BN0_BH6476.dat:system/usr/semc/camera/KMO05BN0_BH6476.dat \
+    vendor/semc/haida/proprietary/usr/semc/camera/KMO05BN0.dat:system/usr/semc/camera/KMO05BN0.dat \
+    vendor/semc/haida/proprietary/usr/semc/camera/KMO05BN0_IMX072.dat:system/usr/semc/camera/KMO05BN0_IMX072.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/LM3560_01_flash.dat:system/usr/semc/camera/LM3560_01_flash.dat \
+    vendor/semc/haida/proprietary/usr/semc/camera/LM3560_00_flash.dat:system/usr/semc/camera/LM3560_00_flash.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/SOD08BN0.dat:system/usr/semc/camera/SOD08BN0.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/SOD08BN0_DW9714.dat:system/usr/semc/camera/SOD08BN0_DW9714.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/SOD08BN0_IMX073.dat:system/usr/semc/camera/SOD08BN0_IMX073.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/SOD08BN1.dat:system/usr/semc/camera/SOD08BN1.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/SOD08BN1_DW9714.dat:system/usr/semc/camera/SOD08BN1_DW9714.dat \
     vendor/semc/haida/proprietary/usr/semc/camera/SOD08BN1_IMX105.dat:system/usr/semc/camera/SOD08BN1_IMX105.dat \
+    vendor/semc/haida/proprietary/usr/semc/camera/STW05BN0_BH6476.dat:system/usr/semc/camera/STW05BN0_BH6476.dat \
+    vendor/semc/haida/proprietary/usr/semc/camera/STW05BN0.dat:system/usr/semc/camera/STW05BN0.dat \
+    vendor/semc/haida/proprietary/usr/semc/camera/STW05BN0_IMX072.dat:system/usr/semc/camera/STW05BN0_IMX072.dat \
     vendor/semc/haida/proprietary/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs:system/etc/firmware/bq27520_fw-0507_filever-0112_proj-hall_golden.bqfs \
     vendor/semc/haida/proprietary/etc/firmware/fm_rx_init_1273.1.bts:system/etc/firmware/fm_rx_init_1273.1.bts \
     vendor/semc/haida/proprietary/etc/firmware/fm_rx_init_1273.2.bts:system/etc/firmware/fm_rx_init_1273.2.bts \
