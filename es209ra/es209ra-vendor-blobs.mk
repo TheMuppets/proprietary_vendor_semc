@@ -69,6 +69,5 @@ PRODUCT_COPY_FILES := \
     vendor/semc/es209ra/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/es209ra/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/semc/es209ra/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/es209ra/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/semc/es209ra/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/semc/es209ra/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so
