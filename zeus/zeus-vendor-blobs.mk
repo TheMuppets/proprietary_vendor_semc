@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeus/proprietary/usr/keylayout/keypad-zeus.kl:system/usr/keylayout/keypad-zeus.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
     vendor/semc/zeus/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    vendor/semc/zeus/proprietary/usr/keychars/keypad-game-zeus.kcm:system/usr/keychars/keypad-game-zeus.kcm \
     vendor/semc/zeus/proprietary/usr/keychars/keypad-zeus.kcm:system/usr/keychars/keypad-zeus.kcm \
     vendor/semc/zeus/proprietary/bin/lidswitchd:system/bin/lidswitchd \
     vendor/semc/zeus/proprietary/bin/port-bridge:system/bin/port-bridge \

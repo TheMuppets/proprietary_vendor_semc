@@ -1,0 +1,10 @@
+type SPECIAL_FUNCTION
+
+key BUTTON_SELECT {
+    base:                               none
+    alt:                                none
+}
+
+key BUTTON_START {
+    base:                               none
+}
