@@ -13,5 +13,5 @@ key 212   CAMERA
 key 528   FOCUS
 
 # WALKMAN key
-key 200   VENDOR_1
+key 200   MEDIA_PLAY_PAUSE  WAKE
 
