@@ -96,6 +96,9 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/anzu/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/anzu/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    vendor/semc/anzu/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
+    vendor/semc/anzu/proprietary/etc/firmware/wl1271-nvs.bin:system/etc/firmware/wl1271-nvs.bin \
+    vendor/semc/anzu/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/anzu/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/anzu/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/anzu/proprietary/lib/libgsl.so:system/lib/libgsl.so \

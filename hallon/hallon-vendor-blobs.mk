@@ -105,6 +105,9 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/hallon/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/hallon/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    vendor/semc/hallon/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
+    vendor/semc/hallon/proprietary/etc/firmware/wl1271-nvs.bin:system/etc/firmware/wl1271-nvs.bin \
+    vendor/semc/hallon/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \
