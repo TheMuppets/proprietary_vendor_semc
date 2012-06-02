@@ -104,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/mango/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/mango/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
+    vendor/semc/mango/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/mango/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/mango/proprietary/etc/firmware/wl1271-nvs.bin:system/etc/firmware/wl1271-nvs.bin \
     vendor/semc/mango/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
