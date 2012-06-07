@@ -129,4 +129,12 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/iyokan/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/iyokan/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/iyokan/proprietary/etc/firmware/touch_iyokan_ttsp.hex:system/etc/firmware/touch_iyokan_ttsp.hex
+    vendor/semc/iyokan/proprietary/etc/firmware/touch_iyokan_ttsp.hex:system/etc/firmware/touch_iyokan_ttsp.hex \
+    vendor/semc/iyokan/proprietary/lib/libanthal.so:system/lib/libanthal.so \
+    vendor/semc/iyokan/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/iyokan/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/iyokan/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/iyokan/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/iyokan/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
+    vendor/semc/iyokan/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+    vendor/semc/iyokan/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar

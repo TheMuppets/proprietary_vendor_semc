@@ -127,4 +127,12 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/hallon/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/hallon/proprietary/etc/firmware/touch_hallon_hitachi.hex:system/etc/firmware/touch_hallon_hitachi.hex \
-    vendor/semc/hallon/proprietary/etc/firmware/touch_hallon_sony.hex:system/etc/firmware/touch_hallon_sony.hex
+    vendor/semc/hallon/proprietary/etc/firmware/touch_hallon_sony.hex:system/etc/firmware/touch_hallon_sony.hex \
+    vendor/semc/hallon/proprietary/lib/libanthal.so:system/lib/libanthal.so \
+    vendor/semc/hallon/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/hallon/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/hallon/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/hallon/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/hallon/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
+    vendor/semc/hallon/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
+    vendor/semc/hallon/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar
