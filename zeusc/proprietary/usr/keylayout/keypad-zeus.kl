@@ -1,0 +1,32 @@
+# file SEMC-DBZ1_keypad.kl
+# this corresponds to kernel/arch/arm/mach-msm/keypad-zeus.*
+#
+# defines for values are in frameworks/base/include/ui/KeycodeLabels.h
+
+# KEY_UP, KEY_LEFT, KEY_RIGHT, KEY_DOWN
+key 103   DPAD_LEFT          WAKE_DROPPED
+key 105   DPAD_DOWN          WAKE_DROPPED
+key 106   DPAD_UP            WAKE_DROPPED
+key 108   DPAD_RIGHT         WAKE_DROPPED
+
+# BTN_Y, BTN_B, BTN_A, BTN_X,
+key 308   BUTTON_Y          WAKE_DROPPED
+key 305   BACK              ALT         WAKE_DROPPED
+key 304   DPAD_CENTER       WAKE_DROPPED
+key 307   BUTTON_X          WAKE_DROPPED
+
+# BTN_TL, BTN_TR
+#   Should be FOCUS, CAMERA...
+#   For now, leave undefined
+key 310   BUTTON_L1   WAKE_DROPPED
+key 311   BUTTON_R1   WAKE_DROPPED
+
+# KEY_MEDIA (PSN_KEY in schematic)
+#   For now, leave undefined
+key 226   MENU        WAKE_DROPPED
+
+# KEY_MENU, KEY_HOME, KEY_BACK
+key 139   MENU
+key 102   HOME             WAKE_DROPPED
+key 158   BACK
+key 217   SEARCH

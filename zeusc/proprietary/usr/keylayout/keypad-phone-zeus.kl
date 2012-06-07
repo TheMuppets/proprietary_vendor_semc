@@ -1,0 +1,9 @@
+# file 7k_handset.kl
+# this corresponds to kernel/arch/arm/mach-msm/board-semc_zeus.c
+#
+# defines for values are in frameworks/base/include/ui/KeycodeLabels.h
+
+# KEY_POWER (value seems weird, though!)
+key 116   POWER             WAKE
+key 226   HEADSETHOOK       WAKE
+key 107   ENDCALL           WAKE
