@@ -121,7 +121,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/satsuma/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/satsuma/proprietary/etc/firmware/touch_satsuma_hitachi.hex:system/etc/firmware/touch_satsuma_hitachi.hex \
-    vendor/semc/satsuma/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/satsuma/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/satsuma/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/satsuma/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/satsuma/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/satsuma/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/satsuma/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/satsuma/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/satsuma/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/satsuma/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar

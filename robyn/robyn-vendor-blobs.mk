@@ -95,7 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/robyn/proprietary/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
     vendor/semc/robyn/proprietary/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
     vendor/semc/robyn/proprietary/lib/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so \
-    vendor/semc/robyn/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/robyn/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/robyn/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/robyn/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/robyn/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/robyn/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/robyn/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/robyn/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/robyn/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/robyn/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar

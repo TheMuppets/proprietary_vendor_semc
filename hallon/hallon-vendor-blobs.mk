@@ -136,7 +136,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/app/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
     vendor/semc/hallon/proprietary/framework/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
     vendor/semc/hallon/proprietary/etc/permissions/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml \
-    vendor/semc/hallon/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/hallon/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/hallon/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/hallon/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/hallon/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/hallon/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/hallon/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/hallon/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/hallon/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/hallon/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar

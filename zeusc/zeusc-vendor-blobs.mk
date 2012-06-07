@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/zeusc/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/zeusc/proprietary/etc/vold.fstab:system/etc/vold.fstab \
+    vendor/semc/zeusc/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/semc/zeusc/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeusc/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/zeusc/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \

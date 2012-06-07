@@ -133,7 +133,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/app/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
     vendor/semc/iyokan/proprietary/framework/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
     vendor/semc/iyokan/proprietary/etc/permissions/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml \
-    vendor/semc/iyokan/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/iyokan/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/iyokan/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/iyokan/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/iyokan/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/iyokan/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/iyokan/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/iyokan/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/iyokan/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/iyokan/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar

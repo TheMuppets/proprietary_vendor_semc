@@ -121,7 +121,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/smultron/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/smultron/proprietary/etc/firmware/touch_smultron_sony.hex:system/etc/firmware/touch_smultron_sony.hex \
-    vendor/semc/smultron/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/smultron/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/smultron/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/smultron/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/smultron/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/smultron/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/smultron/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/smultron/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/smultron/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/smultron/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar

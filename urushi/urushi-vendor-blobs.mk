@@ -132,7 +132,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img \
-    vendor/semc/urushi/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/urushi/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/urushi/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/urushi/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/urushi/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/urushi/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/urushi/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/urushi/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/urushi/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/urushi/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar

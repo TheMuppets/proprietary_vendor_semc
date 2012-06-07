@@ -93,7 +93,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/shakira/proprietary/lib/hw/hal_seport.default.so:system/lib/hw/hal_seport.default.so \
     vendor/semc/shakira/proprietary/lib/libsystemconnector/libuinputdevicejni.so:system/lib/libsystemconnector/libuinputdevicejni.so \
     vendor/semc/shakira/proprietary/lib/libsystemconnector_hal_jni.so:system/lib/libsystemconnector_hal_jni.so \
-    vendor/semc/shakira/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/shakira/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/shakira/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
+    vendor/semc/shakira/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
+    vendor/semc/shakira/proprietary/app/antstatenotifer.apk:system/app/antstatenotifer.apk \
+    vendor/semc/shakira/proprietary/app/AntHalService.apk:system/app/AntHalService.apk \
+    vendor/semc/shakira/proprietary/app/antradioservice.apk:system/app/antradioservice.apk \
     vendor/semc/shakira/proprietary/framework/com.dsi.ant.antradio_library.jar:system/framework/com.dsi.ant.antradio_library.jar \
-    vendor/semc/shakira/proprietary/lib/libanthal.so:system/lib/libanthal.so
+    vendor/semc/shakira/proprietary/framework/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar
