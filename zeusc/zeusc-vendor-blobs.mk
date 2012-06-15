@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/zeusc/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
@@ -90,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeusc/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/zeusc/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/zeusc/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/zeusc/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/zeusc/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/zeusc/proprietary/lib/libgsl.so:system/lib/libgsl.so \

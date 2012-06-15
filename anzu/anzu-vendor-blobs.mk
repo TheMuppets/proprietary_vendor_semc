@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/anzu/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
@@ -117,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/anzu/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/anzu/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/anzu/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type1.hex:system/etc/firmware/touch_anzu_sharp_type1.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \

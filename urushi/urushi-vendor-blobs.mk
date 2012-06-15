@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/urushi/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/urushi/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/urushi/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
@@ -121,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/urushi/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/urushi/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/urushi/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
     vendor/semc/urushi/proprietary/etc/firmware/touch_module_id_0x11.img:system/etc/firmware/touch_module_id_0x11.img \

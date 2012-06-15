@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/hallon/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/hallon/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/hallon/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
@@ -117,6 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/bin/touchd:system/bin/touchd \
     vendor/semc/hallon/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/hallon/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/hallon/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/hallon/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/hallon/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/hallon/proprietary/lib/libgsl.so:system/lib/libgsl.so \

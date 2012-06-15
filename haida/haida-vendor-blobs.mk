@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/haida/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/haida/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/haida/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
@@ -124,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/bin/touchd:system/bin/touchd \
     vendor/semc/haida/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/haida/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/haida/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/haida/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/haida/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/haida/proprietary/lib/libgsl.so:system/lib/libgsl.so \

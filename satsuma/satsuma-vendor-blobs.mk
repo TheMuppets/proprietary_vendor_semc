@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/satsuma/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
@@ -109,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/satsuma/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/satsuma/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/satsuma/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/satsuma/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/satsuma/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/satsuma/proprietary/lib/libgsl.so:system/lib/libgsl.so \

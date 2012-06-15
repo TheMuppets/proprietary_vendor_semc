@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/coconut/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/semc/coconut/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/coconut/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
@@ -110,6 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/coconut/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/coconut/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
+    vendor/semc/coconut/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/coconut/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/coconut/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/coconut/proprietary/lib/libgsl.so:system/lib/libgsl.so \
