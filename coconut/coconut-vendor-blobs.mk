@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/coconut/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     vendor/semc/coconut/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
+    vendor/semc/coconut/proprietary/usr/keylayout/cyttsp_key.kl:system/usr/keylayout/cyttsp_key.kl \
     vendor/semc/coconut/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/coconut/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/coconut/proprietary/bin/qmuxd:system/bin/qmuxd \
