@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so     vendor/semc/satsuma/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/semc/satsuma/proprietary/lib/libv8.so:obj/lib/libv8.so
 
 PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
