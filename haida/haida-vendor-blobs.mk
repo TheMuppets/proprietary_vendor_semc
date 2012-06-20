@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/haida/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/haida/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/haida/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/haida/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/haida/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/haida/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -112,10 +111,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/semc/haida/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/haida/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/semc/haida/proprietary/bin/nvimport:system/bin/nvimport \
+    vendor/semc/haida/proprietary/bin/calibrator:system/bin/calibrator \
     vendor/semc/haida/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/haida/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/haida/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/haida/proprietary/etc/firmware/wl1271-nvs.bin:system/etc/firmware/wl1271-nvs.bin \
     vendor/semc/haida/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/haida/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/haida/proprietary/etc/vold.fstab:system/etc/vold.fstab \

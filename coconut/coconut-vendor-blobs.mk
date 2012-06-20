@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/coconut/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/coconut/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/coconut/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/coconut/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/coconut/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/coconut/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -100,10 +99,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/semc/coconut/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/coconut/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/semc/coconut/proprietary/bin/nvimport:system/bin/nvimport \
+    vendor/semc/coconut/proprietary/bin/calibrator:system/bin/calibrator \
     vendor/semc/coconut/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/coconut/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/coconut/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/coconut/proprietary/etc/firmware/wl1271-nvs.bin:system/etc/firmware/wl1271-nvs.bin \
     vendor/semc/coconut/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/coconut/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/coconut/proprietary/etc/vold.fstab:system/etc/vold.fstab \

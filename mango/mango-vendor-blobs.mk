@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/semc/mango/proprietary/lib/libqdp.so:system/lib/libqdp.so \
     vendor/semc/mango/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/semc/mango/proprietary/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
     vendor/semc/mango/proprietary/lib/hw/camera.semc.so:system/lib/hw/camera.semc.so \
     vendor/semc/mango/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/semc/mango/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
@@ -104,10 +103,11 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw:system/etc/firmware/vidc_720p_vc1_dec_mc.fw \
     vendor/semc/mango/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/semc/mango/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/semc/mango/proprietary/bin/nvimport:system/bin/nvimport \
+    vendor/semc/mango/proprietary/bin/calibrator:system/bin/calibrator \
     vendor/semc/mango/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/mango/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/mango/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/mango/proprietary/etc/firmware/wl1271-nvs.bin:system/etc/firmware/wl1271-nvs.bin \
     vendor/semc/mango/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/mango/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/mango/proprietary/etc/vold.fstab:system/etc/vold.fstab \
