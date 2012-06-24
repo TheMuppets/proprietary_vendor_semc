@@ -104,6 +104,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/anzu/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/anzu/proprietary/bin/calibrator:system/bin/calibrator \
+    vendor/semc/anzu/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/semc/anzu/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/anzu/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/anzu/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \

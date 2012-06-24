@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/iyokan/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/iyokan/proprietary/bin/calibrator:system/bin/calibrator \
+    vendor/semc/iyokan/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/semc/iyokan/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/iyokan/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/iyokan/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \

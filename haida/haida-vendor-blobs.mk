@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/haida/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/haida/proprietary/bin/calibrator:system/bin/calibrator \
+    vendor/semc/haida/proprietary/lib/libnl.so:system/lib/libnl.so \
     vendor/semc/haida/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
     vendor/semc/haida/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/haida/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
