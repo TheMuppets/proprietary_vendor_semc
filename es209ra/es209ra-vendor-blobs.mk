@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/es209ra/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/es209ra/proprietary/lib/hw/sensors.es209ra.so:system/lib/hw/sensors.es209ra.so \
+    vendor/semc/es209ra/proprietary/lib/hw/copybit.es209ra.so:system/lib/hw/copybit.es209ra.so \
     vendor/semc/es209ra/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/es209ra/proprietary/bin/akmd2:system/bin/akmd2 \
     vendor/semc/es209ra/proprietary/bin/chargemon:system/bin/chargemon \
