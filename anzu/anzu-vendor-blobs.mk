@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/anzu/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/anzu/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/anzu/proprietary/bin/hdmid:system/bin/hdmid \
     vendor/semc/anzu/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/anzu/proprietary/bin/touchd:system/bin/touchd \
     vendor/semc/anzu/proprietary/bin/chargemon:system/bin/chargemon \
@@ -131,11 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type2.hex:system/etc/firmware/touch_anzu_sony_type2.hex \
-    vendor/semc/anzu/proprietary/bin/hdmid:system/bin/hdmid \
-    vendor/semc/anzu/proprietary/lib/libhdmidisplay.so:system/lib/libhdmidisplay.so \
-    vendor/semc/anzu/proprietary/app/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
-    vendor/semc/anzu/proprietary/framework/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
-    vendor/semc/anzu/proprietary/etc/permissions/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml \
     vendor/semc/anzu/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/anzu/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/semc/anzu/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \

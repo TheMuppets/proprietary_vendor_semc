@@ -128,11 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/iyokan/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/semc/iyokan/proprietary/etc/firmware/touch_iyokan_ttsp.hex:system/etc/firmware/touch_iyokan_ttsp.hex \
-    vendor/semc/iyokan/proprietary/bin/hdmid:system/bin/hdmid \
-    vendor/semc/iyokan/proprietary/lib/libhdmidisplay.so:system/lib/libhdmidisplay.so \
-    vendor/semc/iyokan/proprietary/app/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
-    vendor/semc/iyokan/proprietary/framework/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
-    vendor/semc/iyokan/proprietary/etc/permissions/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml \
     vendor/semc/iyokan/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/iyokan/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/semc/iyokan/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \

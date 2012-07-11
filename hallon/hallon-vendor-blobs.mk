@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/hallon/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
-    vendor/semc/hallon/proprietary/bin/hdmid:system/bin/hdmid \
     vendor/semc/hallon/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/hallon/proprietary/bin/touchd:system/bin/touchd \
     vendor/semc/hallon/proprietary/bin/chargemon:system/bin/chargemon \
@@ -131,11 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/hallon/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/hallon/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/semc/hallon/proprietary/bin/hdmid:system/bin/hdmid \
-    vendor/semc/hallon/proprietary/lib/libhdmidisplay.so:system/lib/libhdmidisplay.so \
-    vendor/semc/hallon/proprietary/app/SemcHdmiControlService.apk:system/app/SemcHdmiControlService.apk \
-    vendor/semc/hallon/proprietary/framework/com.sonyericsson.privateapis_impl.jar:system/framework/com.sonyericsson.privateapis_impl.jar \
-    vendor/semc/hallon/proprietary/etc/permissions/com.sonyericsson.privateapis.xml:system/etc/permissions/com.sonyericsson.privateapis.xml \
     vendor/semc/hallon/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/hallon/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
     vendor/semc/hallon/proprietary/etc/permissions/com.sonyericsson.suquashi.xml:system/etc/permissions/com.sonyericsson.suquashi.xml \
