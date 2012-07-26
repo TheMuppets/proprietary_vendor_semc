@@ -111,7 +111,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/mango/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/mango/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/mango/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/mango/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/mango/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/mango/proprietary/bin/akmd8975:system/bin/akmd8975 \

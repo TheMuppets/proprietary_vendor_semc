@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/coconut/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/coconut/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/coconut/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/coconut/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/coconut/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/coconut/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/coconut/proprietary/bin/akmd8975:system/bin/akmd8975 \

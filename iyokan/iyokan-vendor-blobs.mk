@@ -116,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/iyokan/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/iyokan/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/iyokan/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/iyokan/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/iyokan/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/iyokan/proprietary/bin/akmd8975:system/bin/akmd8975 \

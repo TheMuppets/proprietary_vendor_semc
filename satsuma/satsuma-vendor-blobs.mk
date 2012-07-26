@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/satsuma/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/satsuma/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/satsuma/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/satsuma/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/satsuma/proprietary/bin/akmd8975:system/bin/akmd8975 \

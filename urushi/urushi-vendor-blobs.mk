@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/urushi/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/urushi/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/urushi/proprietary/etc/als_curve.conf:system/etc/als_curve.conf \
-    vendor/semc/urushi/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/urushi/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/urushi/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/urushi/proprietary/bin/akmd8975:system/bin/akmd8975 \

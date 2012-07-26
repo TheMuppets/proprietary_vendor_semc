@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/haida/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/haida/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/haida/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/haida/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/haida/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/haida/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/haida/proprietary/bin/akmd8975:system/bin/akmd8975 \

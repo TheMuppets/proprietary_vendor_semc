@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
     vendor/semc/smultron/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
     vendor/semc/smultron/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/semc/smultron/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
     vendor/semc/smultron/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/smultron/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     vendor/semc/smultron/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
@@ -108,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/smultron/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/smultron/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/smultron/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/smultron/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/smultron/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/smultron/proprietary/bin/akmd8975:system/bin/akmd8975 \

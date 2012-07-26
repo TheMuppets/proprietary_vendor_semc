@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
     vendor/semc/hallon/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/hallon/proprietary/etc/vold.fstab:system/etc/vold.fstab \
     vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/hallon/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/hallon/proprietary/bin/akmd8975:system/bin/akmd8975 \
