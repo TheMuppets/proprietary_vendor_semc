@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
     vendor/semc/satsuma/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
+    vendor/semc/satsuma/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/satsuma/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
