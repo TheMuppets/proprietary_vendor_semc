@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
     vendor/semc/anzu/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/anzu/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
     vendor/semc/anzu/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
     vendor/semc/anzu/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
     vendor/semc/anzu/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
