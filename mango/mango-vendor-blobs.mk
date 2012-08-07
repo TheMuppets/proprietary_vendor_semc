@@ -121,11 +121,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/mango/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/mango/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/mango/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/semc/mango/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/mango/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/mango/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/mango/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/mango/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/mango/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/mango/proprietary/etc/firmware/touch_mango_sony_type1.hex:system/etc/firmware/touch_mango_sony_type1.hex \
     vendor/semc/mango/proprietary/etc/firmware/touch_mango_sony_type2.hex:system/etc/firmware/touch_mango_sony_type2.hex \
     vendor/semc/mango/proprietary/etc/firmware/touch_mango_seiko.hex:system/etc/firmware/touch_mango_seiko.hex \

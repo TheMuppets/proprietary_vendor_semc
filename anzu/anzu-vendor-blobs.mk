@@ -112,11 +112,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/anzu/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/anzu/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/anzu/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/semc/anzu/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/anzu/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/anzu/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/anzu/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/anzu/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/anzu/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/anzu/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/semc/anzu/proprietary/etc/als_curve.conf:system/etc/als_curve.conf \
     vendor/semc/anzu/proprietary/etc/sensors.conf:system/etc/sensors.conf \

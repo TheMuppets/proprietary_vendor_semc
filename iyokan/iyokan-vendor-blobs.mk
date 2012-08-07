@@ -126,11 +126,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/iyokan/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/iyokan/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/iyokan/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/iyokan/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/semc/iyokan/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/iyokan/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/iyokan/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/iyokan/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/iyokan/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/iyokan/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/iyokan/proprietary/etc/firmware/touch_iyokan_ttsp.hex:system/etc/firmware/touch_iyokan_ttsp.hex \
     vendor/semc/iyokan/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/iyokan/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \

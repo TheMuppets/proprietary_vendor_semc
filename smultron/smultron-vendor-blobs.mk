@@ -117,11 +117,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/smultron/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/smultron/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/smultron/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/smultron/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/semc/smultron/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/smultron/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/smultron/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/smultron/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/smultron/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/smultron/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/smultron/proprietary/etc/firmware/touch_smultron_sony.hex:system/etc/firmware/touch_smultron_sony.hex \
     vendor/semc/smultron/proprietary/lib/libanthal.so:system/lib/libanthal.so \
     vendor/semc/smultron/proprietary/etc/permissions/com.dsi.ant.antradio_library.xml:system/etc/permissions/com.dsi.ant.antradio_library.xml \
