@@ -16,16 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/hallon/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/semc/hallon/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/semc/hallon/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/hallon/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
-    vendor/semc/hallon/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/hallon/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/semc/hallon/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
-    vendor/semc/hallon/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    vendor/semc/hallon/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/semc/hallon/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/hallon/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/hallon/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -107,18 +100,13 @@ PRODUCT_COPY_FILES += \
     vendor/semc/hallon/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/hallon/proprietary/bin/calibrator:system/bin/calibrator \
     vendor/semc/hallon/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/semc/hallon/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/hallon/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/hallon/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/hallon/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/hallon/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/hallon/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/hallon/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/hallon/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/hallon/proprietary/bin/touchd:system/bin/touchd \
     vendor/semc/hallon/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/hallon/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/hallon/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/hallon/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/hallon/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/hallon/proprietary/lib/libgsl.so:system/lib/libgsl.so \

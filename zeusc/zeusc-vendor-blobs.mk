@@ -16,31 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/semc/zeusc/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/zeusc/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
-    vendor/semc/zeusc/proprietary/usr/idc/synaptics_touchpad.idc:system/usr/idc/synaptics_touchpad.idc \
-    vendor/semc/zeusc/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_028e.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_046d_Product_c216.kl:system/usr/keylayout/Vendor_046d_Product_c216.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_046d_Product_c294.kl:system/usr/keylayout/Vendor_046d_Product_c294.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_046d_Product_c299.kl:system/usr/keylayout/Vendor_046d_Product_c299.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/keypad-game-zeus.kl:system/usr/keylayout/keypad-game-zeus.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/keypad-phone-zeus.kl:system/usr/keylayout/keypad-phone-zeus.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/keypad-zeus.kl:system/usr/keylayout/keypad-zeus.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    vendor/semc/zeusc/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/zeusc/proprietary/usr/keychars/keypad-game-zeus.kcm:system/usr/keychars/keypad-game-zeus.kcm \
-    vendor/semc/zeusc/proprietary/usr/keychars/keypad-zeus.kcm:system/usr/keychars/keypad-zeus.kcm \
-    vendor/semc/zeusc/proprietary/bin/lidswitchd:system/bin/lidswitchd \
     vendor/semc/zeusc/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/zeusc/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/zeusc/proprietary/lib/libril.so:system/lib/libril.so \
@@ -85,20 +63,21 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeusc/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/zeusc/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/semc/zeusc/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/zeusc/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/zeusc/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeusc/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/zeusc/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/zeusc/proprietary/lib/libv8.so:system/lib/libv8.so \
+    vendor/semc/zeusc/proprietary/bin/lidswitchd:system/bin/lidswitchd \
     vendor/semc/zeusc/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/zeusc/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/zeusc/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/semc/zeusc/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/semc/zeusc/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/semc/zeusc/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/semc/zeusc/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/semc/zeusc/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/semc/zeusc/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/semc/zeusc/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/semc/zeusc/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/zeusc/proprietary/etc/permissions/com.playstation.playstationcertified.xml:system/etc/permissions/com.playstation.playstationcertified.xml \
     vendor/semc/zeusc/proprietary/etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml:system/etc/permissions/com.sonyericsson.android.xperiaplaycertified.xml \
     vendor/semc/zeusc/proprietary/etc/permissions/com.sony.android.playstationcertified.xml:system/etc/permissions/com.sony.android.playstationcertified.xml \

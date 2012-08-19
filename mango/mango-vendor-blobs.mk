@@ -16,21 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/mango/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/semc/mango/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/semc/mango/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/mango/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
-    vendor/semc/mango/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
-    vendor/semc/mango/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-    vendor/semc/mango/proprietary/usr/idc/pm8058-keypad.idc:system/usr/idc/pm8058-keypad.idc \
-    vendor/semc/mango/proprietary/usr/keychars/pm8058-keypad.kcm:system/usr/keychars/pm8058-keypad.kcm \
-    vendor/semc/mango/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/mango/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/semc/mango/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
-    vendor/semc/mango/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    vendor/semc/mango/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/mango/proprietary/usr/keylayout/cyttsp_key.kl:system/usr/keylayout/cyttsp_key.kl \
     vendor/semc/mango/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/mango/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/mango/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -106,17 +94,12 @@ PRODUCT_COPY_FILES += \
     vendor/semc/mango/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/mango/proprietary/bin/calibrator:system/bin/calibrator \
     vendor/semc/mango/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/semc/mango/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/mango/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/mango/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/mango/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/mango/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/mango/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/mango/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/mango/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/mango/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/mango/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/mango/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/mango/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/mango/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/mango/proprietary/lib/libgsl.so:system/lib/libgsl.so \

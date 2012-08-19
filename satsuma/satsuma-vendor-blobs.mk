@@ -16,17 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/semc/satsuma/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/satsuma/proprietary/usr/idc/cyttsp-spi.idc:system/usr/idc/cyttsp-spi.idc \
-    vendor/semc/satsuma/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/satsuma/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/semc/satsuma/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
-    vendor/semc/satsuma/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
-    vendor/semc/satsuma/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    vendor/semc/satsuma/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/semc/satsuma/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/satsuma/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/satsuma/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -102,17 +94,12 @@ PRODUCT_COPY_FILES += \
     vendor/semc/satsuma/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/satsuma/proprietary/bin/calibrator:system/bin/calibrator \
     vendor/semc/satsuma/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/semc/satsuma/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/satsuma/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/satsuma/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/satsuma/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/satsuma/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/satsuma/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/satsuma/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/satsuma/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/satsuma/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/satsuma/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/satsuma/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/satsuma/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/satsuma/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/satsuma/proprietary/lib/libgsl.so:system/lib/libgsl.so \

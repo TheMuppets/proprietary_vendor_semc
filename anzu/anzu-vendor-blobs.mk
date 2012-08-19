@@ -16,15 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/semc/anzu/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/semc/anzu/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/anzu/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
-    vendor/semc/anzu/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/anzu/proprietary/usr/keylayout/msm_pmic_pwr_key.kl:system/usr/keylayout/msm_pmic_pwr_key.kl \
-    vendor/semc/anzu/proprietary/usr/keylayout/pm8058-keypad.kl:system/usr/keylayout/pm8058-keypad.kl \
-    vendor/semc/anzu/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
     vendor/semc/anzu/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/anzu/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/anzu/proprietary/bin/qmuxd:system/bin/qmuxd \
@@ -104,10 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/bin/nvimport:system/bin/nvimport \
     vendor/semc/anzu/proprietary/bin/calibrator:system/bin/calibrator \
     vendor/semc/anzu/proprietary/lib/libnl.so:system/lib/libnl.so \
-    vendor/semc/anzu/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    vendor/semc/anzu/proprietary/etc/tiwlan.ini:system/etc/tiwlan.ini \
     vendor/semc/anzu/proprietary/etc/firmware/wl1271-fw-multirole-roc.bin:system/etc/firmware/wl1271-fw-multirole-roc.bin \
-    vendor/semc/anzu/proprietary/etc/wifi/hostapd.conf:system/etc/wifi/hostapd.conf \
     vendor/semc/anzu/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/anzu/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/anzu/proprietary/lib/libgsl.so:system/lib/libgsl.so \
@@ -120,13 +111,10 @@ PRODUCT_COPY_FILES += \
     vendor/semc/anzu/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     vendor/semc/anzu/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/semc/anzu/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/anzu/proprietary/etc/als_curve.conf:system/etc/als_curve.conf \
-    vendor/semc/anzu/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/anzu/proprietary/bin/bq275xx_fwloader:system/bin/bq275xx_fwloader \
     vendor/semc/anzu/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/anzu/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/anzu/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/anzu/proprietary/lib/libv8.so:system/lib/libv8.so \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type1.hex:system/etc/firmware/touch_anzu_sharp_type1.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sharp_type2.hex:system/etc/firmware/touch_anzu_sharp_type2.hex \
     vendor/semc/anzu/proprietary/etc/firmware/touch_anzu_sony_type1.hex:system/etc/firmware/touch_anzu_sony_type1.hex \

@@ -16,20 +16,9 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/semc/zeus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/semc/zeus/proprietary/lib/libv8.so:obj/lib/libv8.so
+    vendor/semc/zeus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
-    vendor/semc/zeus/proprietary/usr/idc/cy8ctma300_touch.idc:system/usr/idc/cy8ctma300_touch.idc \
-    vendor/semc/zeus/proprietary/usr/idc/synaptics_touchpad.idc:system/usr/idc/synaptics_touchpad.idc \
-    vendor/semc/zeus/proprietary/usr/keylayout/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
-    vendor/semc/zeus/proprietary/usr/keylayout/keypad-game-zeus.kl:system/usr/keylayout/keypad-game-zeus.kl \
-    vendor/semc/zeus/proprietary/usr/keylayout/keypad-phone-zeus.kl:system/usr/keylayout/keypad-phone-zeus.kl \
-    vendor/semc/zeus/proprietary/usr/keylayout/keypad-zeus.kl:system/usr/keylayout/keypad-zeus.kl \
-    vendor/semc/zeus/proprietary/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl \
-    vendor/semc/zeus/proprietary/usr/keychars/keypad-game-zeus.kcm:system/usr/keychars/keypad-game-zeus.kcm \
-    vendor/semc/zeus/proprietary/usr/keychars/keypad-zeus.kcm:system/usr/keychars/keypad-zeus.kcm \
-    vendor/semc/zeus/proprietary/bin/lidswitchd:system/bin/lidswitchd \
     vendor/semc/zeus/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/zeus/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/semc/zeus/proprietary/lib/libril.so:system/lib/libril.so \
@@ -74,11 +63,10 @@ PRODUCT_COPY_FILES += \
     vendor/semc/zeus/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/semc/zeus/proprietary/etc/wifi/calibration:system/etc/wifi/calibration \
     vendor/semc/zeus/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/semc/zeus/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/semc/zeus/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/semc/zeus/proprietary/bin/chargemon:system/bin/chargemon \
     vendor/semc/zeus/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/semc/zeus/proprietary/lib/libv8.so:system/lib/libv8.so \
+    vendor/semc/zeus/proprietary/bin/lidswitchd:system/bin/lidswitchd \
     vendor/semc/zeus/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/semc/zeus/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/semc/zeus/proprietary/lib/libgsl.so:system/lib/libgsl.so \
